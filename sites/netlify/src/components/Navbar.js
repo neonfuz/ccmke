@@ -24,11 +24,11 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: 'is-active',
-            })
+            navBarActiveClass: 'is-active',
+          })
           : this.setState({
-              navBarActiveClass: '',
-            })
+            navBarActiveClass: '',
+          })
       }
     )
   }
@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
         }}>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo" style={{ paddingLeft: '0', paddingTop: '0', paddingBottom: '0' }}>
-              <img src={logo} alt="Kaldi" style={{  maxHeight: '60px' }} />
+              <img src={logo} alt="Kaldi" style={{ maxHeight: '60px' }} />
             </Link>
             {/* Hamburger menu */}
             <div
