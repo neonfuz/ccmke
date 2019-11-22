@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import github from '../img/github-icon.svg'
 import logo from '../img/logo2.png'
+import background from '../img/background.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -39,7 +40,10 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
       >
-        <div className="container">
+        <div className="container" style={{
+          background: `url(${background}`,
+          backgroundSize: '30%'
+        }}>
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo" style={{ paddingLeft: '0', paddingTop: '0', paddingBottom: '0' }}>
               <img src={logo} alt="Kaldi" style={{  maxHeight: '60px' }} />

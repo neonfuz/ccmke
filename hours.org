@@ -29,3 +29,9 @@ total: 30
  - 30 minutes researching backend
 * 2019-11-19
  - 1 hour coding
+* 2019-11-21
+5:30 - 7:00 ish, setting up computer
+7:00 - 7:30 coding
+
+current logo is not very scalable. this is a good reason for an icon redesign.
+(screenshot)
