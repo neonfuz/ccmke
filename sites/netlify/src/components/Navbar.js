@@ -39,11 +39,13 @@ const Navbar = class extends React.Component {
         className="navbar is-transparent"
         role="navigation"
         aria-label="main-navigation"
-      >
-        <div className="container" style={{
+        style={{
           background: `url(${background}`,
-          backgroundSize: '30%'
-        }}>
+          backgroundSize: '30%',
+          backgroundRepeat: 'repeat'
+        }}
+      >
+        <div className="container">
           <div className="navbar-brand">
             <Link to="/" className="navbar-item" title="Logo" style={{ paddingLeft: '0', paddingTop: '0', paddingBottom: '0' }}>
               <img src={logo} alt="Kaldi" style={{ maxHeight: '60px' }} />
