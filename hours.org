@@ -1,4 +1,8 @@
-* 2019-10-23
+* DONE 2019-10-23
+  CLOSED: [2019-11-24 Sun 23:19]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:19]
+  :END:
   4:45 - 5:30 | 45
   6:00 - 7:20 | 80
   7:40 - 7:55 | 15
@@ -6,32 +10,125 @@
 
 total: 3:25
 
-* 2019-10-24
+* DONE 2019-10-24
+  CLOSED: [2019-11-24 Sun 23:19]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:19]
+  :END:
 2:10 2:15 - replacing logo
 8:30 - 9:48 - animation research
 
 total: 1:52
 
-* 2019-10-25
+* DONE 2019-10-25
+  CLOSED: [2019-11-24 Sun 23:19]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:19]
+  :END:
 #11:30 - 11:55 - kate computer
 1:40 - 2:00 - photoshop install
 
 5:50 - 6:00 - seo research
 
 total: 30
-* 2019-11-08
+* DONE 2019-11-08
+  CLOSED: [2019-11-24 Sun 23:31]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
  - 2 hours
-* 2019-11-09
- - 15 minutes doing about heads
-* 2019-11-13
+* DONE 2019-11-09
+  CLOSED: [2019-11-24 Sun 23:31]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
+ - 15 minutes doing "About Us" circle heads
+* DONE 2019-11-13
+  CLOSED: [2019-11-24 Sun 23:31]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
  - 15 minutes researching gatsby templates
-* 2019-11-14
- - 30 minutes researching backend
-* 2019-11-19
+* DONE 2019-11-14
+  CLOSED: [2019-11-24 Sun 23:31]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
+ - 30 minutes researching backend / CMS
+* DONE 2019-11-19
+  CLOSED: [2019-11-24 Sun 23:31]
+  :LOGBOOK:
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
  - 1 hour coding
-* 2019-11-21
+* TODO 2019-11-21
+  :LOGBOOK:
+  - State "TODO"       from "DONE"       [2019-11-24 Sun 23:31]
+  - State "DONE"       from "DONE"       [2019-11-24 Sun 23:31]
+  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  :END:
+
 5:30 - 7:00 ish, setting up computer
 7:00 - 7:30 coding
 
 current logo is not very scalable. this is a good reason for an icon redesign.
 (screenshot)
+
+7:30 - 8:00 navbar background etc
+8:30 - 9:15 page background experiment
+
+11:15 - 11:30 page background
+
+12:00 - 1:00 watching vids on adobe tools
+
+2:30 - 4:00 logo work etc
+(screenshot)
+* 2019-11-22
+kate: 3:30 - 3:45 forwarding emails
+3:30 - 3:45 replacing new assets
+5:40 - 7:00 watching xd vid with kate
+7:00 - 7:30 designing new logo with kate
+ - 8:15 design work
+
+* 2019-11-24
+11:30 - 12:00 helping kate with indesign for pamphlet etc
+12:15 - 12:30 helping kate with logo
+12:45 - 1:00 helping kate with logo
+1:15 - 1:30 helping kate with xd and illustrator
+1:45 - 2:00 doing site outline
+2:15 - site outline & helping kate with google drive
+2:36 - 2:45 ish helping kate with google drive
+3:00 - adding new logos to site
+3:20 adding logo to site
+
+9:45 - helping kate with xd
+* 2019-11-25
+  - meeting 45 mins
+* 2019-12-10
+ - 20:15 - 20:20 reading about lorem ipsum and google translate latin
+ - 20:22 - starting watching vid on wireframing
+
+20:28
+asking if kate has her wireframe pictures
+"if I go downstairs I'm gonna get more wine or go to sleep"
+
+20:32 watching video again
+kate is putting on nails and not listening very closely to video
+20:36 stopped
+20:42 continued
+20:44 stopped
+
+21:29 - 21:34 kate video
+
+21:52 - 21:54 kate video ux design with xd web
+
+22:35 - 22:50 answering design prompts
+
+37 minutes
+
+22:55 - 22:57 watching video
+
+39 minutes
+
+23:03 - 23:04 watching part 2 video
+23:05 - ...
