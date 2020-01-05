@@ -6,9 +6,91 @@
  - nia dance
  - yoga
  - trauma informed
- - yoga
  - peer support
  - rehab worker
+ - dog therapy
+ - child therapy
+ - trauma therapy
+
 * Pages
+ - Homepage
+ - About Us
+ - What we offer (About services???)
+ - Office photos???
+
+* Prompts
+** Our Goals
+ - Advertise the business and therapists
+ - Make people happier
+** User Goals
+ - Find a therapist
+ - Be happier
+** Questions to answer
+ - Who the therapists are / How will I connect to the therapists
+ - Contact information
+** Emotions
+ - comfortable with the therapists and business
+ - gentle
+ - positive
+ - happy
+
+* Pages
+ - homepage
+   - office photos background
+   - people overview heads
+   - link to services with big list of all services
+ - about us
+   - first section
+     - about business and therapists more generally
+     - link to services
+     - photo to the right
+   - therapist profiles
+     - round photo (doesn't have to be round)
+     - name
+     - links
+     - specialties
+     - bio
+ - services
+   - big list of all services
+   - more specific sections with info about each service
+   - "We help with " disabilities ??
+ - contact us / appointment
+   - OK this with sarah
+     - one concern is mistyped return email
+   - inspiration: cedarlakecounseling.com/appointments-1
+   - info about making appointments
+   - phone number as alternative
+   - submit forum  (name, email, subject, message)
+
+ - header
+   - logo
+   - navbar
+ - footer
+   - site map?
+   - copyright
+   - contact (phone number, address)
+
+* Content
+ - office photos
+ - contact / company info
+ - therapist info
+   - bio
+   - photo
+   - links to relevant sites (psychology today, etc)
+ - about our business (what we do, what we offer, services)
+ - dance videos?
+ - appointments page?
+ - phone number visible
+ - resources?
+ - quote blocks
+ - map to business
  -
-* Key info
+ - fortune cookie thing
+** Our Goals
+** User Goals
+** Questions
+** Emotions
+
+*
+ - about page
+ - services page
