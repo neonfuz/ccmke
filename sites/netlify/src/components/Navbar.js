@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 import logo from '../img/cc logo.svg'
 import kaleidoscope from '../img/background.jpg'
 
