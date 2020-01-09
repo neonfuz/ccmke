@@ -7,7 +7,6 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import kaleidoscope from '../img/background.jpg'
-import logo from '../img/cc logo.svg'
 
 export const IndexPageTemplate = ({
   image,
@@ -20,7 +19,7 @@ export const IndexPageTemplate = ({
 }) => (
     <div>
       <div
-        className="full-width-image margin-top-0"
+        className="full-width-image hero is-fullsize"
         style={{
           backgroundImage: `url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
@@ -30,17 +29,12 @@ export const IndexPageTemplate = ({
           backgroundSize: '100vw 70vmax'
         }}
       >
-        <div
-          style={{
-            display: 'flex',
-            height: '150px',
-            lineHeight: '1',
-            justifyContent: 'space-around',
-            alignItems: 'left',
-            flexDirection: 'column',
-          }}
-        >
-          <img src={logo} alt="Creative Counseling of Milwaukee" style={{ height: '200px' }} />
+        <div className="hero-body">
+          <div className="container">
+            <div className="title" style={{ color: 'white' }}>
+              foo
+            </div>
+          </div>
         </div>
       </div>
       <section
@@ -168,7 +162,8 @@ export const pageQuery = graphql`
                 }
               }
             }
-            text
+            name
+            role
           }
           heading
           description
