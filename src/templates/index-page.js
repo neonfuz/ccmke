@@ -40,7 +40,7 @@ export const IndexPageTemplate = ({
       <section
         className="section"
         style={{
-          background: `url(${kaleidoscope}`,
+          background: `url(${kaleidoscope})`,
           backgroundSize: '50%',
           backgroundRepeat: 'repeat'
         }}

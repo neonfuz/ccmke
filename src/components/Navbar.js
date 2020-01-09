@@ -39,7 +39,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
         style={{
-          background: `url(${kaleidoscope}`,
+          background: `url(${kaleidoscope})`,
           backgroundSize: '50%',
           backgroundRepeat: 'repeat'
         }}
