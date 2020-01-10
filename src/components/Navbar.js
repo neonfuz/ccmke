@@ -35,11 +35,12 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent is-fixed-top"
         role="navigation"
         aria-label="main-navigation"
         style={{
-          background: '#837bea'
+          background: '#837bea',
+          border: 'solid #3c3ea3 .2rem',
         }}
       >
         <div className="container">
@@ -63,21 +64,17 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered is-size-4">
-              <Link className="navbar-item" to="/"
-                style={{ color: 'white' }}>
+            <div className="navbar-end has-text-centered is-size-4 ">
+              <Link className="navbar-item light" to="/">
                 Home
               </Link>
-              <Link className="navbar-item" to="/about"
-                style={{ color: 'white' }}>
+              <Link className="navbar-item light" to="/about">
                 About Us
               </Link>
-              <Link className="navbar-item" to="/services"
-                style={{ color: 'white' }}>
+              <Link className="navbar-item light" to="/services">
                 Services
               </Link>
-              <Link className="navbar-item" to="/contact"
-                style={{ color: 'white' }}>
+              <Link className="navbar-item light" to="/contact">
                 Contact Us
               </Link>
             </div>

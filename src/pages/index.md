@@ -26,6 +26,42 @@ intro:
     - image: /img/xd/mom cc.png
       name: Sarah La Follette
       role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
+    - image: /img/xd/mom cc.png
+      name: Sarah La Follette
+      role: Therapist
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
