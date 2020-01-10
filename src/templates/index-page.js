@@ -32,7 +32,6 @@ export const IndexPageTemplate = ({
         <div className="hero-body">
           <div className="container">
             <div className="title" style={{ color: 'white' }}>
-              foo
             </div>
           </div>
         </div>
@@ -40,9 +39,7 @@ export const IndexPageTemplate = ({
       <section
         className="section"
         style={{
-          background: `url(${kaleidoscope})`,
-          backgroundSize: '50%',
-          backgroundRepeat: 'repeat'
+          background: '#837bea'
         }}
       >
         <div className="container">

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/cc logo.svg'
+import logo from '../img/cc logo white.svg'
 import kaleidoscope from '../img/background.jpg'
 
 const Navbar = class extends React.Component {
@@ -39,9 +39,7 @@ const Navbar = class extends React.Component {
         role="navigation"
         aria-label="main-navigation"
         style={{
-          background: `url(${kaleidoscope})`,
-          backgroundSize: '50%',
-          backgroundRepeat: 'repeat'
+          background: '#837bea'
         }}
       >
         <div className="container">
@@ -66,16 +64,20 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered is-size-4">
-              <Link className="navbar-item" to="/">
+              <Link className="navbar-item" to="/"
+                style={{ color: 'white' }}>
                 Home
               </Link>
-              <Link className="navbar-item" to="/about">
+              <Link className="navbar-item" to="/about"
+                style={{ color: 'white' }}>
                 About Us
               </Link>
-              <Link className="navbar-item" to="/services">
+              <Link className="navbar-item" to="/services"
+                style={{ color: 'white' }}>
                 Services
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item" to="/contact"
+                style={{ color: 'white' }}>
                 Contact Us
               </Link>
             </div>
