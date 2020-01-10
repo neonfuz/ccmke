@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
             })`,
           backgroundPosition: `center 75px`,
           backgroundAttachment: `fixed`,
-          backgroundSize: '100vw calc(100vh - 75px - 3em)',
+          backgroundSize: '100vw 52vw',
           height: 'calc(100vh - 3em)',
         }}
       >
