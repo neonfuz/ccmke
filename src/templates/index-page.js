@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
-import kaleidoscope from '../img/background.jpg'
 import logo from '../img/cc logo white.svg'
 
 export const IndexPageTemplate = ({
