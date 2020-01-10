@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import kaleidoscope from '../img/background.jpg'
+import logo from '../img/cc logo white.svg'
 
 export const IndexPageTemplate = ({
   image,
@@ -21,18 +22,31 @@ export const IndexPageTemplate = ({
       <div
         className="full-width-image hero is-fullsize"
         style={{
-          backgroundImage: `url(${
+          backgroundImage:
+            `linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url(${
             !!image.childImageSharp ? image.childImageSharp.fluid.src : image
             })`,
-          backgroundPosition: `top center`,
+          backgroundPosition: `center 75px`,
           backgroundAttachment: `fixed`,
-          backgroundSize: '100vw 70vmax'
+          backgroundSize: '100vw calc(100vh - 75px - 3em)',
+          height: 'calc(100vh - 3em)',
         }}
       >
-        <div className="hero-body">
-          <div className="container">
-            <div className="title" style={{ color: 'white' }}>
-            </div>
+        <div className="hero-body" style={{
+          paddingTop: '75px',
+        }}>
+          <div className="container" style={{
+            textAlign: 'center',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}>
+            <img src={logo} style={{
+              maxWidth: '70vw',
+              maxHeight: '50vh',
+              margin: '8rem',
+            }} />
           </div>
         </div>
       </div>
@@ -46,8 +60,8 @@ export const IndexPageTemplate = ({
           <div className="section">
             <div className="columns">
               <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="content">
+                <div className="content light">
+                  <div className="content light">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
@@ -55,13 +69,11 @@ export const IndexPageTemplate = ({
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
                   </div>
-                  <div className="columns">
-                    <div className="column is-12">
-                      <h3 className="has-text-weight-semibold is-size-2">
-                        {heading}
-                      </h3>
-                      <p>{description}</p>
-                    </div>
+                  <div className="content light">
+                    <h3 className="has-text-weight-semibold is-size-2">
+                      {heading}
+                    </h3>
+                    <p>{description}</p>
                   </div>
                   <Features gridItems={intro.blurbs} />
                   <div className="columns">
