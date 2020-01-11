@@ -18,7 +18,8 @@ const Hero = ({ image, logo }) => (
       backgroundPosition: `center 75px`,
       backgroundAttachment: `fixed`,
       backgroundSize: '100vw 52vw',
-      height: 'calc(100vh - 3em)',
+      maxHeight: '58vw',
+      height: '80vh',
     }}>
     <div className="hero-body" style={{
       paddingTop: '75px',
