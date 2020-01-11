@@ -196,5 +196,6 @@ kate is putting on nails and not listening very closely to video
 5 hours
 
 12:00 - 1:00 coding
-* 2020-01-08
+* 2020-01-10
 pm 8:00 - 10:00 setting up docker env
+pm 10:00 - 12:30 recoding template (added services, colors)

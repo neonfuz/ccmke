@@ -7,6 +7,8 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 
 import logo from '../img/cc logo white.svg'
+import services from '../img/services.png'
+import ourServices from '../img/our services.png'
 
 const Hero = ({ image, logo }) => (
   <div className="full-width-image hero is-fullsize"
@@ -103,6 +105,30 @@ const Stories = () => (
   </div>
 )
 
+const Services = () => (
+  <div style={{
+    background: '#837bea'
+  }}>
+    <div className="container">
+      <div className="section">
+
+        <div className="columns">
+          <div className="column is-8">
+            <figure className="image">
+              <img src={services} alt="services" style={{ border: 'solid black 1em' }} />
+            </figure>
+          </div>
+          <div className="column is-4">
+            <figure className="image">
+              <img src={ourServices} alt="our services" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -117,6 +143,7 @@ export const IndexPageTemplate = ({
       <Mainpitch mainpitch={mainpitch} />
       <Body {...{ title, heading, subheading, description, intro }} />
       <Stories />
+      <Services />
     </>
   )
 
