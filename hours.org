@@ -1,6 +1,8 @@
-* DONE 2019-10-23
-  CLOSED: [2019-11-24 Sun 23:19]
+#+TODO: TODO(t) | PAID(p)
+
+* PAID 2019-10-23
   :LOGBOOK:
+  - State "PROJECT"    from "DONE"       [2020-01-13 Mon 16:03]
   - State "DONE"       from              [2019-11-24 Sun 23:19]
   :END:
   4:45 - 5:30 | 45
@@ -10,20 +12,20 @@
 
 total: 3:25
 
-* DONE 2019-10-24
+* PAID 2019-10-24
   CLOSED: [2019-11-24 Sun 23:19]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:19]
+  - State "PAID"       from              [2019-11-24 Sun 23:19]
   :END:
 2:10 2:15 - replacing logo
 8:30 - 9:48 - animation research
 
 total: 1:52
 
-* DONE 2019-10-25
+* PAID 2019-10-25
   CLOSED: [2019-11-24 Sun 23:19]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:19]
+  - State "PAID"       from              [2019-11-24 Sun 23:19]
   :END:
 #11:30 - 11:55 - kate computer
 1:40 - 2:00 - photoshop install
@@ -31,41 +33,41 @@ total: 1:52
 5:50 - 6:00 - seo research
 
 total: 30
-* DONE 2019-11-08
+* PAID 2019-11-08
   CLOSED: [2019-11-24 Sun 23:31]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 2 hours
-* DONE 2019-11-09
+* PAID 2019-11-09
   CLOSED: [2019-11-24 Sun 23:31]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 15 minutes doing "About Us" circle heads
-* DONE 2019-11-13
+* PAID 2019-11-13
   CLOSED: [2019-11-24 Sun 23:31]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 15 minutes researching gatsby templates
-* DONE 2019-11-14
+* PAID 2019-11-14
   CLOSED: [2019-11-24 Sun 23:31]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 30 minutes researching backend / CMS
-* DONE 2019-11-19
+* PAID 2019-11-19
   CLOSED: [2019-11-24 Sun 23:31]
   :LOGBOOK:
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 1 hour coding
 * TODO 2019-11-21
   :LOGBOOK:
   - State "TODO"       from "DONE"       [2019-11-24 Sun 23:31]
-  - State "DONE"       from "DONE"       [2019-11-24 Sun 23:31]
-  - State "DONE"       from              [2019-11-24 Sun 23:31]
+  - State "PAID"       from "PAID"       [2019-11-24 Sun 23:31]
+  - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
 
 5:30 - 7:00 ish, setting up computer
@@ -199,3 +201,5 @@ kate is putting on nails and not listening very closely to video
 * 2020-01-10
 pm 8:00 - 10:00 setting up docker env
 pm 10:00 - 12:30 recoding template (added services, colors)
+* 2020-01-12
+ - setting up admin page 1 hour
