@@ -1,0 +1,8 @@
+* TODO properly size images
+ - services
+ - slide5
+* TODO avoid large network payloads
+ - slide5
+* TODO Navbar button accessible name
+* TODO contrast ratio
+ - stories titles
