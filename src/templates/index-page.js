@@ -75,7 +75,7 @@ const Body = ({
               </h3>
               <p>{description}</p>
             </div>
-            <Features gridItems={intro.blurbs} />
+            <Features gridItems={intro.blurbs.map(item => ({ ...item, alt: item.name }))} />
             <div className="columns">
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/products">

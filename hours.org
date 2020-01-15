@@ -203,3 +203,8 @@ pm 8:00 - 10:00 setting up docker env
 pm 10:00 - 12:30 recoding template (added services, colors)
 * 2020-01-12
  - setting up admin page 1 hour
+* 2020-01-12
+6:30 - 7:00 Updating project and fixing warnings
+
+inimproving chrome audit score:
+7:00 - 7:15 Adding alt tags to therapist profiles
