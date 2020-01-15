@@ -33,7 +33,7 @@ const Hero = ({ image, logo }) => (
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-        <img src={logo} style={{
+        <img src={logo} alt="Creative Counseling of Milwaukee" style={{
           maxWidth: '70vw',
           maxHeight: '50vh',
           margin: '8rem',
