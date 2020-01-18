@@ -63,7 +63,8 @@ total: 30
   - State "PAID"       from              [2019-11-24 Sun 23:31]
   :END:
  - 1 hour coding
-* TODO 2019-11-21
+* PAID 2019-11-21
+  CLOSED: [2020-01-16 Thu 13:42]
   :LOGBOOK:
   - State "TODO"       from "DONE"       [2019-11-24 Sun 23:31]
   - State "PAID"       from "PAID"       [2019-11-24 Sun 23:31]
@@ -85,14 +86,16 @@ current logo is not very scalable. this is a good reason for an icon redesign.
 
 2:30 - 4:00 logo work etc
 (screenshot)
-* 2019-11-22
+* PAID 2019-11-22
+  CLOSED: [2020-01-16 Thu 13:43]
 kate: 3:30 - 3:45 forwarding emails
 3:30 - 3:45 replacing new assets
 5:40 - 7:00 watching xd vid with kate
 7:00 - 7:30 designing new logo with kate
  - 8:15 design work
 
-* 2019-11-24
+* PAID 2019-11-24
+  CLOSED: [2020-01-16 Thu 13:43]
 11:30 - 12:00 helping kate with indesign for pamphlet etc
 12:15 - 12:30 helping kate with logo
 12:45 - 1:00 helping kate with logo
@@ -104,9 +107,11 @@ kate: 3:30 - 3:45 forwarding emails
 3:20 adding logo to site
 
 9:45 - helping kate with xd
-* 2019-11-25
+* PAID 2019-11-25
+  CLOSED: [2020-01-16 Thu 14:17]
   - meeting 45 mins
-* 2019-12-10
+* PAID 2019-12-10
+  CLOSED: [2020-01-16 Thu 14:17]
  - 20:15 - 20:20 reading about lorem ipsum and google translate latin
  - 20:22 - starting watching vid on wireframing
 
@@ -137,7 +142,8 @@ kate is putting on nails and not listening very closely to video
 
 40 minutes
 2.5 hours for me
-* 2019-12-12
+* PAID 2019-12-12
+  CLOSED: [2020-01-16 Thu 14:17]
  - 17:50 - 18:00 started (vid watching)
  - 18:00 - 18:10 notes
  - 18:27
@@ -146,13 +152,16 @@ kate is putting on nails and not listening very closely to video
  - 19:3
 
    1.5 hours ish
-* 2019-12-15
+* PAID 2019-12-15
+  CLOSED: [2020-01-16 Thu 14:17]
  - 21:30-22:00 helping kate with xd site layout
  - 22:15 -  22:30 ""
  - 10:50 done
-* 2019-12-16
+* PAID 2019-12-16
+  CLOSED: [2020-01-16 Thu 14:17]
 16:50 - 18:05 wireframing with kate
-* 2019-12-27
+* PAID 2019-12-27
+  CLOSED: [2020-01-16 Thu 14:17]
 1:55 - 2:35 transfering files and misc setup on kates new laptop
 2:35 - 2:43 setting up xd
 5:15 - 5:35 starting xd and deveolpment
@@ -160,17 +169,17 @@ kate is putting on nails and not listening very closely to video
  - 6:21 stopped to clear hdd space on computer
 :26 - started dev
 7:50 - hdd space
-* 2020-01-04
+* TODO 2020-01-04
  - 7:00 - 9:00 - helping kate and coding site
  - 9:00 - coding heads
  - 10:30 done
 
 10-45 - doing hero with xd assets
 11:15 actually done
-* 2020-01-05
+* TODO 2020-01-05
  - 8:45 - 9:15 helping kate
  - 11:45 actually done?? (confirm with kate)
-* 2020-01-06
+* TODO 2020-01-06
  - 11:30 - 1:30 helped kate with xd work
 
 2 hours
@@ -182,10 +191,10 @@ kate is putting on nails and not listening very closely to video
 5:15 - 5:30 programmed heads, resolved coding issue
 6:15 - fixing kates copmuter
 
-* 2020-01-08
+* TODO 2020-01-08
 5:15 - 5:45 coding
 6:30 - 7:00 meeting
-* 2020-01-09
+* TODO 2020-01-09
 3:30 - 5:00 uploading and tweaking site
 6:15 - 6:30 purple background
 7:00 - 8:00 programming (check git)
@@ -198,13 +207,17 @@ kate is putting on nails and not listening very closely to video
 5 hours
 
 12:00 - 1:00 coding
-* 2020-01-10
+* TODO 2020-01-10
 pm 8:00 - 10:00 setting up docker env
 pm 10:00 - 12:30 recoding template (added services, colors)
-* 2020-01-12
+* TODO 2020-01-12
  - setting up admin page 1 hour
-* 2020-01-12
+* TODO 2020-01-12
 6:30 - 7:00 Updating project and fixing warnings
 
-inimproving chrome audit score:
+improving chrome audit score:
 7:00 - 7:15 Adding alt tags to therapist profiles
+7:15 - 7:45 improving lighthouse score
+thought: accessibility important because of nature of business?
+* TODO 2020-01-17
+18:15 - 18:45 scaling images for lighthouse score
