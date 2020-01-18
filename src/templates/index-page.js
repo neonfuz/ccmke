@@ -5,10 +5,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import Services from '../components/Services'
 
 import logo from '../img/cc logo white.svg'
-import services from '../img/services.png'
-import ourServices from '../img/our services.png'
 
 const Hero = ({ image, logo }) => (
   <div className="full-width-image hero is-fullsize"
@@ -100,30 +99,6 @@ const Stories = () => (
         <Link className="btn" to="/blog">
           Read more
       </Link>
-      </div>
-    </div>
-  </div>
-)
-
-const Services = () => (
-  <div style={{
-    background: '#837bea'
-  }}>
-    <div className="container">
-      <div className="section">
-
-        <div className="columns">
-          <div className="column is-8">
-            <figure className="image">
-              <img src={services} alt="services" style={{ border: 'solid black 1em' }} />
-            </figure>
-          </div>
-          <div className="column is-4">
-            <figure className="image">
-              <img src={ourServices} alt="our services" />
-            </figure>
-          </div>
-        </div>
       </div>
     </div>
   </div>
