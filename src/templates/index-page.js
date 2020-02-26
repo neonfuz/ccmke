@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Navbar from '../components/Navbar'
+import StickyNav from '../components/StickyNav'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
@@ -116,6 +116,7 @@ export const IndexPageTemplate = ({
 }) => (
     <>
       <Hero {...{ image, logo }} />
+      <StickyNav />
       <Mainpitch mainpitch={mainpitch} />
       <Body {...{ title, heading, subheading, description, intro }} />
       <Stories />
@@ -140,7 +141,6 @@ const IndexPage = ({ data }) => {
 
   return (
     <Layout noNavbar>
-      <Navbar />
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
