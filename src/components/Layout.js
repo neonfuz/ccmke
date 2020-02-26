@@ -6,7 +6,7 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ children }) => {
+const TemplateWrapper = ({ noNavbar, children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div>
@@ -48,7 +48,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Navbar />
+      { noNavbar || <Navbar />}
       <div>{children}</div>
       <Footer />
     </div>
