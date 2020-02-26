@@ -221,3 +221,20 @@ improving chrome audit score:
 thought: accessibility important because of nature of business?
 * TODO 2020-01-17
 18:15 - 18:45 scaling images for lighthouse score
+* TODO 2020-02-25
+9:15 - making todo list
+
+** nav bar
+*** on bottom
+*** sticky
+*** center menu button
+*** mobile menu button text color
+** hero
+*** responsive size & cropping
+*** logo centered and sized
+*** multiple images with switcher
+** page
+*** sections vertically sized
+*** add about pictures to md
+** make therapists editable in admin
+** remove stories
