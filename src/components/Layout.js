@@ -9,7 +9,9 @@ import { withPrefix } from 'gatsby'
 const TemplateWrapper = ({ noNavbar, children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <div style={{
+      background: 'fixed linear-gradient(180deg, rgba(215,214,230,1) 0%, rgba(204,202,231,1) 100%)',
+    }}>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>

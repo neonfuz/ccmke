@@ -1,4 +1,4 @@
-#+TODO: TODO(t) | PAID(p)
+#+TODO: TODO(t) | DONE(d) | PAID(p)
 
 * PAID 2019-10-23
   :LOGBOOK:
@@ -222,7 +222,8 @@ thought: accessibility important because of nature of business?
 * TODO 2020-01-17
 18:15 - 18:45 scaling images for lighthouse score
 * TODO 2020-02-25
-9:15 - making todo list
+9:15 - 9:30 making todo list
+9:30 - 9:45 layout changes (navbar, background)
 
 ** nav bar
 *** on bottom
@@ -234,6 +235,7 @@ thought: accessibility important because of nature of business?
 *** logo centered and sized
 *** multiple images with switcher
 ** page
+*** DONE background gradient on all pages
 *** sections vertically sized
 *** add about pictures to md
 ** make therapists editable in admin
