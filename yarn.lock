@@ -4222,6 +4222,11 @@ css-selector-tokenizer@^0.7.0:
     fastparse "^1.1.1"
     regexpu-core "^1.0.0"
 
+css-supports@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/css-supports/-/css-supports-0.1.1.tgz#9ae201f952beb65f00c5e4b249ebce8ef58a013d"
+  integrity sha1-muIB+VK+tl8AxeSySevOjvWKAT0=
+
 css-tree@1.0.0-alpha.37:
   version "1.0.0-alpha.37"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha.37.tgz#98bebd62c4c1d9f960ec340cf9f7522e30709a22"
@@ -12550,6 +12555,14 @@ react-split-pane@^0.1.85:
     react-lifecycles-compat "^3.0.4"
     react-style-proptype "^3.0.0"
 
+react-sticky-fill@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/react-sticky-fill/-/react-sticky-fill-0.8.4.tgz#8870a71b1c356b5caf2c451ff0010fdfa0de6111"
+  integrity sha512-EQVDR/iN0KP89Mogon69KgCVbfRQxQe/73G3gzMW7ZfDOv1khQjpvn+0FVvgTKcp/AjJz/T4QhNZp2/oNiQdww==
+  dependencies:
+    css-supports "^0.1.1"
+    stickyfill "^1.1.1"
+
 react-style-proptype@^3.0.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-3.2.2.tgz#d8e998e62ce79ec35b087252b90f19f1c33968a0"
@@ -14188,6 +14201,11 @@ stealthy-require@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
+
+stickyfill@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/stickyfill/-/stickyfill-1.1.1.tgz#39413fee9d025c74a7e59ceecb23784cc0f17f02"
+  integrity sha1-OUE/7p0CXHSn5ZzuyyN4TMDxfwI=
 
 stream-browserify@^2.0.1:
   version "2.0.2"

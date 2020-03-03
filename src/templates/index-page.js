@@ -3,7 +3,8 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import StickyNav from '../components/StickyNav'
+import Navbar from '../components/Navbar'
+import Sticky from 'react-sticky-fill'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
@@ -115,7 +116,9 @@ export const IndexPageTemplate = ({
 }) => (
     <>
       <Hero {...{ image, logo }} />
-      <StickyNav />
+      <Sticky>
+        <Navbar />
+      </Sticky>
       <Mainpitch mainpitch={mainpitch} />
       <Body {...{ title, heading, subheading, description, intro }} />
       <Stories />
