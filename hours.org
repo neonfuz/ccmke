@@ -1,4 +1,4 @@
-#+TODO: TODO(t) | DONE(d) | PAID(p)
+#+TODO: TODO(t) | DONE(d) | UNPAID(u) | PAID(p)
 
 * PAID 2019-10-23
   :LOGBOOK:
@@ -169,17 +169,17 @@ kate is putting on nails and not listening very closely to video
  - 6:21 stopped to clear hdd space on computer
 :26 - started dev
 7:50 - hdd space
-* TODO 2020-01-04
+* UNPAID 2020-01-04
  - 7:00 - 9:00 - helping kate and coding site
  - 9:00 - coding heads
  - 10:30 done
 
 10-45 - doing hero with xd assets
 11:15 actually done
-* TODO 2020-01-05
+* UNPAID 2020-01-05
  - 8:45 - 9:15 helping kate
  - 11:45 actually done?? (confirm with kate)
-* TODO 2020-01-06
+* UNPAID 2020-01-06
  - 11:30 - 1:30 helped kate with xd work
 
 2 hours
@@ -191,10 +191,10 @@ kate is putting on nails and not listening very closely to video
 5:15 - 5:30 programmed heads, resolved coding issue
 6:15 - fixing kates copmuter
 
-* TODO 2020-01-08
+* UNPAID 2020-01-08
 5:15 - 5:45 coding
 6:30 - 7:00 meeting
-* TODO 2020-01-09
+* UNPAID 2020-01-09
 3:30 - 5:00 uploading and tweaking site
 6:15 - 6:30 purple background
 7:00 - 8:00 programming (check git)
@@ -207,37 +207,39 @@ kate is putting on nails and not listening very closely to video
 5 hours
 
 12:00 - 1:00 coding
-* TODO 2020-01-10
+* UNPAID 2020-01-10
 pm 8:00 - 10:00 setting up docker env
 pm 10:00 - 12:30 recoding template (added services, colors)
-* TODO 2020-01-12
+* UNPAID 2020-01-12
  - setting up admin page 1 hour
-* TODO 2020-01-12
+* UNPAID 2020-01-12
 6:30 - 7:00 Updating project and fixing warnings
 
 improving chrome audit score:
 7:00 - 7:15 Adding alt tags to therapist profiles
 7:15 - 7:45 improving lighthouse score
 thought: accessibility important because of nature of business?
-* TODO 2020-01-17
+* UNPAID 2020-01-17
 18:15 - 18:45 scaling images for lighthouse score
-* TODO 2020-02-25
+* UNPAID 2020-02-25
 9:15 - 9:30 making todo list
 9:30 - 9:45 layout changes (navbar, background)
 9:45 - 10:00 sticky navbar
+10:00 - 10:15
+ - 11:00 working on sticky hook
 
-** nav bar
-*** DONE on bottom
-*** sticky
-*** center menu button
-*** mobile menu button text color
-** hero
-*** responsive size & cropping
-*** logo centered and sized
-*** multiple images with switcher
-** page
-*** DONE background gradient on all pages
-*** sections vertically sized
-*** add about pictures to md
-** make therapists editable in admin
-** remove stories
+* UNPAID 2020-02-26
+10:00 - 10:30 react research
+11:00 - 12:00 sticky nav
+pm 5:30 - reading about refs
+* UNPAID 2020-02-27
+12:15 - 12:30 sticky nav then no internet
+* UNPAID 2020-02-28
+ 12:45 - 1:15 finished sticky nav
+* UNPAID 2020-02-29
+1:00 - 1:15 started work
+* UNPAID 2020-03-02
+5:00 - 6:00 researching polyfills
+6:15 implemented polyfill
+* UNPAID 2020-03-03
+pm 7:00 - started work
