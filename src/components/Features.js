@@ -15,7 +15,7 @@ const FeatureGrid = ({ gridItems }) => (
                   display: 'inline-block',
                 }}
               >
-                <PreviewCompatibleImage imageInfo={item} />
+                <PreviewCompatibleImage imageInfo={item} style={{ borderRadius: '50%' }}/>
               </div>
               <figcaption style={{
                 fontSize: '1.2rem',

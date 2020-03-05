@@ -243,3 +243,10 @@ pm 5:30 - reading about refs
 6:15 implemented polyfill
 * UNPAID 2020-03-03
 pm 7:00 - started work
+* UNPAID 2020-03-04
+11:45 - 12:00 adding pictures to site_
+4:00 - 5:00 talking kate through exporting assets
+5:45 - 6:00
+6:15 - 6:45 picture bar
+* UNPAID 2020-03-05
+7:45 - 8:30 finished picture bar

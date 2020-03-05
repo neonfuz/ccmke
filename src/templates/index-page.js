@@ -8,6 +8,7 @@ import Sticky from 'react-sticky-fill'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import logo from '../img/cc logo white.svg'
 
@@ -54,6 +55,18 @@ const Mainpitch = ({
           </div>
           <div className="tile">
             <h3 className="subtitle">{mainpitch.description}</h3>
+          </div>
+          <div style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-around',
+            width: '100%',
+          }}>
+            {mainpitch.pics.map((info, i) => (
+              <div style={{minWidth: '30%'}}>
+                <PreviewCompatibleImage imageInfo={info} style={{ border: 'solid #837bea .7em' }} />
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -183,6 +196,16 @@ export const pageQuery = graphql`
       mainpitch {
         title
         description
+        pics {
+          alt
+          image {
+            childImageSharp {
+              fluid(maxWidth: 320, quality: 80) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
       }
       description
       intro {

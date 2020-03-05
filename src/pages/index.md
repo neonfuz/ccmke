@@ -5,7 +5,7 @@ image: /img/slides/slide5.png
 heading: Great coffee with a conscience
 subheading: bottom text
 mainpitch:
-  title: Lorem Ipsum
+  title: Who We Are
   description: >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -13,6 +13,13 @@ mainpitch:
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  pics:
+    - image: /img/xd/Masks@2x.png
+      alt: Mask Wall
+    - image: /img/xd/Diversity.png
+      alt: Diversity Welcome Sign
+    - image: /img/xd/SarahR Office.png
+      alt: Sarah R Room
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
