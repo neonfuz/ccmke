@@ -30,7 +30,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.0",
-    "react-sticky-fill": "^0.8.4",
+    "react-sticky-fill": "https://github.com/neonfuz/react-sticky-fill-ssr",
     "uuid": "^3.2.1"
   },
   "keywords": [
