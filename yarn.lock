@@ -12333,13 +12333,6 @@ react-split-pane@^0.1.85:
     react-lifecycles-compat "^3.0.4"
     react-style-proptype "^3.0.0"
 
-"react-sticky-fill@https://github.com/neonfuz/react-sticky-fill-ssr":
-  version "0.8.4"
-  resolved "https://github.com/neonfuz/react-sticky-fill-ssr#a1feacc9e79798fa5b366753f3ea469f4c17d515"
-  dependencies:
-    css-supports "^0.1.1"
-    stickyfill "^1.1.1"
-
 react-style-proptype@^3.0.0:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/react-style-proptype/-/react-style-proptype-3.2.2.tgz#d8e998e62ce79ec35b087252b90f19f1c33968a0"
@@ -13931,10 +13924,10 @@ stealthy-require@^1.1.1:
   resolved "https://registry.yarnpkg.com/stealthy-require/-/stealthy-require-1.1.1.tgz#35b09875b4ff49f26a777e509b3090a3226bf24b"
   integrity sha1-NbCYdbT/SfJqd35QmzCQoyJr8ks=
 
-stickyfill@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/stickyfill/-/stickyfill-1.1.1.tgz#39413fee9d025c74a7e59ceecb23784cc0f17f02"
-  integrity sha1-OUE/7p0CXHSn5ZzuyyN4TMDxfwI=
+stickyfill@^1.1.1-strict:
+  version "1.1.1-strict"
+  resolved "https://registry.yarnpkg.com/stickyfill/-/stickyfill-1.1.1-strict.tgz#6302ea8538e4e6abc335b114e5135d55a9df0d59"
+  integrity sha512-sATIqk4FvUQqSEWAVVWHUJoH98cKQ5REqDl5y8/Ij5Yj7tCLv+Y2gj/ioMcYuvUbtPL8j4kWmPTARR6fiDJNgQ==
 
 stream-browserify@^2.0.1:
   version "2.0.2"

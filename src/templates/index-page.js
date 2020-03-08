@@ -4,11 +4,12 @@ import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
-import Sticky from 'react-sticky-fill'
+import Sticky from '../components/react-sticky-fill'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+
 
 import logo from '../img/cc logo white.svg'
 
