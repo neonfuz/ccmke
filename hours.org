@@ -255,4 +255,4 @@ pm 7:00 - started work
 10:30 - 11:45 fixing SSR
 * UNPAID 2020-03-08
 6:15 - 6:45 fixing ssr
-7:30 - fixing ssr
+7:30 - 8:00 fixing ssr
