@@ -75,6 +75,29 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+services:
+  image: /img/services.png
+  list:
+    - name: Child-Centered Play Therapy
+      link: play-therapy
+    - name: Sand Tray Therapy
+      link: sand-tray-therapy
+    - name: Art Therapy
+      link: art-therapy
+    - name: Theraplay
+      link: theraplay
+    - name: Animal-Centered Therapy
+      link: animal-centered-therapy
+    - name: Music & Movement
+      link: music-and-movement
+    - name: Narrative/Life Journaling
+      link: narrative-life-journaling
+    - name: Meditation & Mindfulness
+      link: meditation-and-mindfulness
+    - name: Trauma-Informed Yoga
+      link: trauma-informed-yoga
+    - name: NIA Dance
+      link: nia-dance
 main:
   heading: Great coffee with no compromises
   description: >

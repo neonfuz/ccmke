@@ -129,6 +129,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  services,
 }) => (
     <>
       <Hero {...{ image, logo }} />
@@ -138,7 +139,7 @@ export const IndexPageTemplate = ({
       <Mainpitch mainpitch={mainpitch} />
       <Body {...{ title, heading, subheading, description, intro }} />
       <Stories />
-      <Services />
+      <Services {...{services}} />
     </>
   )
 
@@ -167,6 +168,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        services={frontmatter.services}
       />
     </Layout>
   )
@@ -225,6 +227,19 @@ export const pageQuery = graphql`
         }
         heading
         description
+      }
+      services {
+        list {
+          name
+          link
+        }
+        image {
+          childImageSharp {
+            fluid(maxWidth: 830, quality: 95) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
