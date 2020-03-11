@@ -2,7 +2,6 @@
 templateKey: index-page
 title: Creative Counseling of Milwaukee
 image: /img/slides/slide5.png
-heading: Great coffee with a conscience
 subheading: bottom text
 mainpitch:
   title: Who We Are
@@ -20,54 +19,52 @@ mainpitch:
       alt: Diversity Welcome Sign
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
+heading: Meet our therapists
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  click on a picture to learn more
 intro:
   blurbs:
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 0
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 1
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 2
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 3
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 4
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 5
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 6
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 7
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 8
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 9
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 10
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 11
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 12
       role: Therapist
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette
+      name: Sarah La Follette 13
       role: Therapist
   heading: What we offer
   description: >
