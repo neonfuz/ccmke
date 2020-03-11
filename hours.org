@@ -268,4 +268,4 @@ pm 7:00 - started work
 9:45 - 10:00 inlining logos
 * UNPAID 2020-03-11
 12:30 - admin page
-1:00 -
+1:00 - 1:45 fixed admin page
