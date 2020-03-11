@@ -2,6 +2,7 @@
 templateKey: index-page
 title: Creative Counseling of Milwaukee
 image: /img/slides/slide5.png
+heading: Meet our therapists
 subheading: bottom text
 mainpitch:
   title: Who We Are
@@ -22,16 +23,14 @@ mainpitch:
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
       width: 30
-heading: Meet our therapists
-description: >-
-  click on a picture to learn more
+description: click on a picture to learn more
 intro:
   blurbs:
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette 0
+      name: Sarah La Follette
       role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 1
+    - image: /img/sarah-r.png
+      name: Sarah Rosenblatt
       role: Therapist
     - image: /img/xd/mom cc.png
       name: Sarah La Follette 2
@@ -75,6 +74,22 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+main:
+  heading: Great coffee with no compromises
+  description: >
+    We hold our coffee to the highest standards from the shrub to the cup.
+    That’s why we’re meticulous and transparent about each step of the coffee’s
+    journey. We personally visit each farm to make sure the conditions are
+    optimal for the plants, farmers and the local environment.
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/products-grid3.jpg
+  image2:
+    alt: A green cup of a coffee on a wooden table
+    image: /img/products-grid2.jpg
+  image3:
+    alt: Coffee beans
+    image: /img/products-grid1.jpg
 services:
   image: /img/services.png
   list:
@@ -98,20 +113,4 @@ services:
       link: trauma-informed-yoga
     - name: NIA Dance
       link: nia-dance
-main:
-  heading: Great coffee with no compromises
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
 ---
