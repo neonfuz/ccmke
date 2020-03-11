@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Equalizer from 'react-equalizer'
+import SVG from 'react-inlinesvg'
 
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -36,7 +37,7 @@ const Hero = ({ image, logo }) => (
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-        <img src={logo} alt="Creative Counseling of Milwaukee" style={{
+        <SVG src={logo} style={{
           maxWidth: '70vw',
           maxHeight: '50vh',
         }} />

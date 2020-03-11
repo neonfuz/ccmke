@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Link } from 'gatsby'
+import SVG from 'react-inlinesvg'
 import logo from '../img/cc logo white.svg'
 
 const Navbar = ({ fixed, navRef }) => {
@@ -19,8 +20,7 @@ const Navbar = ({ fixed, navRef }) => {
       <div className="container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-item" title="Logo" style={{ paddingLeft: '0', paddingTop: '0', paddingBottom: '0' }}>
-            <img src={logo} alt="Creative Counseling of Milwaukee" style={{ height: '75px', maxHeight: '75px' }} />
-
+            <SVG src={logo} style={{ height: '75px', maxHeight: '75px' }} />
           </Link>
           {/* Hamburger menu */}
           <button

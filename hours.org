@@ -265,3 +265,7 @@ pm 7:00 - started work
 3:00 - 3:30 adding services
 5:00 - 5:30 fonts
 7:15 - 8:15 styling services
+9:45 - 10:00 inlining logos
+* UNPAID 2020-03-11
+12:30 - admin page
+1:00 -
