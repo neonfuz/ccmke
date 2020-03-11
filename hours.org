@@ -256,3 +256,12 @@ pm 7:00 - started work
 * UNPAID 2020-03-08
 6:15 - 6:45 fixing ssr
 7:30 - 8:00 fixing ssr
+* UNPAID 2020-03-09
+4:45 - 5:45 coding work
+* UNPAID 2020-03-10
+8:15 - 8:30 started
+9:15 - 9:30 working on services
+10:00 - 10:15 working
+3:00 - 3:30 adding services
+5:00 - 5:30 fonts
+7:15 - 8:15 styling services
