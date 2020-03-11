@@ -1,5 +1,8 @@
 var _cacheSupports = {};
 
+/* File is assumed to be correct, but throwing warnings so... */
+/* eslint-disable */
+
 function parse(propertyName, reg) {
   return propertyName.split(reg).slice(1, -1);
 }
