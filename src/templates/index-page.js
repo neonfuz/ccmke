@@ -95,8 +95,8 @@ const Body = ({
             <div className="columns">
               <div className="column is-12 has-text-centered">
                 <Link className="btn" to="/products">
-                  See all products
-                      </Link>
+                  About Us
+                </Link>
               </div>
             </div>
           </div>
@@ -121,6 +121,8 @@ const Stories = () => (
   </div>
 )
 
+const HR = () => <hr style={{margin: '2rem 8rem'}}/>
+
 export const IndexPageTemplate = ({
   image,
   title,
@@ -137,8 +139,9 @@ export const IndexPageTemplate = ({
         <Navbar />
       </Sticky>
       <Mainpitch mainpitch={mainpitch} />
+      <HR />
       <Body {...{ title, heading, subheading, description, intro }} />
-      <Stories />
+      <HR />
       <Services {...{services}} />
     </>
   )
