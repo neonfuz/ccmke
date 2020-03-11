@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import Equalizer from 'react-equalizer'
 
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -57,18 +58,19 @@ const Mainpitch = ({
           <div className="tile">
             <h3 className="subtitle">{mainpitch.description}</h3>
           </div>
-          <div style={{
+          <Equalizer style={{
             display: 'flex',
             flexDirection: 'row',
             justifyContent: 'space-around',
             width: '100%',
-          }}>
-            {mainpitch.pics.map((info, i) => (
-              <div style={{minWidth: '30%'}}>
-                <PreviewCompatibleImage imageInfo={info} style={{ border: 'solid #837bea .7em' }} />
-              </div>
+          }} height={320}>
+            {mainpitch.pics.map(({width, ...info}, i) => (
+              <PreviewCompatibleImage imageInfo={info} style={{
+                border: 'solid #837bea .7em',
+                minWidth: `${width}%`
+              }} />
             ))}
-          </div>
+          </Equalizer>
         </div>
       </div>
     </div>
