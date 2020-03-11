@@ -1,11 +1,6 @@
 * nav bar
-** DONE on bottom
-** DONE sticky
-** DONE sticky placeholder
 ** center menu button
 ** mobile menu button text color
-** TODO fix sticky nav on resizing window
-** TODO fix sticky nav if refresh lower than nav bar
 * hero
 ** responsive size & cropping
 ** logo centered and sized
