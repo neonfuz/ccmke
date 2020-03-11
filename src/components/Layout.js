@@ -10,7 +10,7 @@ const TemplateWrapper = ({ noNavbar, children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div style={{
-      background: 'fixed linear-gradient(180deg, rgba(215,214,230,1) 0%, rgba(204,202,231,1) 100%)',
+      background: 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)',
     }}>
       <Helmet>
         <html lang="en" />
