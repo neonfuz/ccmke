@@ -15,10 +15,13 @@ mainpitch:
   pics:
     - image: /img/xd/Masks@2x.png
       alt: Mask Wall
+      width: 30
     - image: /img/xd/Diversity.png
       alt: Diversity Welcome Sign
+      width: 30
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
+      width: 30
 heading: Meet our therapists
 description: >-
   click on a picture to learn more

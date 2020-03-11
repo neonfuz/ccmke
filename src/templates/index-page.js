@@ -11,7 +11,6 @@ import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-
 import logo from '../img/cc logo white.svg'
 
 const Hero = ({ image, logo }) => (
@@ -203,6 +202,7 @@ export const pageQuery = graphql`
         description
         pics {
           alt
+          width
           image {
             childImageSharp {
               fluid(maxWidth: 320, quality: 80) {
