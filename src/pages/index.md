@@ -32,9 +32,9 @@ intro:
     - image: /img/sarah-r.png
       name: Sarah Rosenblatt
       role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 2
-      role: Therapist
+    - image: /img/kristin.png
+      name: Kristin Stutter
+      role: Yoga Instructor
     - image: /img/xd/mom cc.png
       name: Sarah La Follette 3
       role: Therapist
