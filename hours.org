@@ -274,3 +274,4 @@ pm 7:00 - started work
 * UNPAID 2020-03-13
 7:45 - 8:30 Site footer
 8:30 - 9:00 sticky services image
+10:00ish - 11:00 styling homepage
