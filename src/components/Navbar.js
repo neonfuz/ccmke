@@ -13,6 +13,7 @@ const Navbar = ({ fixed, navRef }) => {
       aria-label="main-navigation"
       style={{
         background: '#837bea',
+        borderTop: 'solid #3c3ea3 .2rem',
         borderBottom: 'solid #3c3ea3 .2rem',
       }}
       ref={navRef}

@@ -1,4 +1,5 @@
 import React from 'react'
+import Sticky from './react-sticky-fill'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const styles = {
@@ -14,7 +15,7 @@ const styles = {
     borderRadius: '1rem',
     border: 'solid #768 .1em',
     color: 'white',
-    fontSize: '1.6em',
+    fontSize: '1.4em',
   },
   heading: {
     color: 'black',
@@ -30,11 +31,13 @@ export default ({services: {image, list}}) => (
     <div className="section">
       <div className="columns">
         <div className="column is-8">
-          <figure className="image">
-            <PreviewCompatibleImage
-              imageInfo={{alt: 'services graphic', image}}
-              style={styles.image} />
-          </figure>
+          <Sticky top="6rem">
+            <figure className="image">
+              <PreviewCompatibleImage
+                imageInfo={{alt: 'services graphic', image}}
+                style={styles.image} />
+            </figure>
+          </Sticky>
         </div>
         <div className="column is-4">
           <h2 style={styles.heading}>Our Services:</h2>

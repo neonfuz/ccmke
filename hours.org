@@ -269,3 +269,8 @@ pm 7:00 - started work
 * UNPAID 2020-03-11
 12:30 - admin page
 1:00 - 1:45 fixed admin page
+* UNPAID 2020-03-12
+7:15 - 7:30 researching docker issue
+* UNPAID 2020-03-13
+7:45 - 8:30 Site footer
+8:30 - 9:00 sticky services image

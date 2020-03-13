@@ -121,7 +121,10 @@ const Stories = () => (
   </div>
 )
 
-const HR = () => <hr style={{margin: '2rem 8rem'}}/>
+const HR = () => <hr style={{
+  margin: '2rem 8rem',
+  backgroundColor: '#9f98eb',
+}}/>
 
 export const IndexPageTemplate = ({
   image,
@@ -135,7 +138,7 @@ export const IndexPageTemplate = ({
 }) => (
     <>
       <Hero {...{ image, logo }} />
-      <Sticky>
+      <Sticky zIndex="2">
         <Navbar />
       </Sticky>
       <Mainpitch mainpitch={mainpitch} />

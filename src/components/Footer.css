@@ -1,0 +1,9 @@
+:global(.footer h2) {
+    font-family: 'Abril fatface';
+    color: #9f98eb;
+    font-size: 3rem;
+}
+
+:global(.footer .label) {
+    color: whitesmoke;
+}
