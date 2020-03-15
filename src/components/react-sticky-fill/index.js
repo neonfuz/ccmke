@@ -29,7 +29,7 @@ class ReactStickyfill extends React.PureComponent {
     const {top, zIndex, ...props} = this.props
     return (
       <div
-        {...this.props}
+        {...props}
         ref={(el) => { this.stickyElement = el }}
         style={{
           top: top || 0,
