@@ -275,3 +275,7 @@ pm 7:00 - started work
 7:45 - 8:30 Site footer
 8:30 - 9:00 sticky services image
 10:00ish - 11:00 styling homepage
+11:45 - 1:00 getting file from kate (explaining how to upload file to google drive)
+* UNPAID 2020-03-15
+8:30 - 9:00 Working on inlining logo svgs and getting svg of services graphic
+11:00 - 11:30 inlining svgs

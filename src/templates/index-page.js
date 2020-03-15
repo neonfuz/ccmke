@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Equalizer from 'react-equalizer'
-import SVG from 'react-inlinesvg'
 
 import Layout from '../components/Layout'
 import Navbar from '../components/Navbar'
@@ -12,9 +11,9 @@ import BlogRoll from '../components/BlogRoll'
 import Services from '../components/Services'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-import logo from '../img/cc logo white.svg'
+import Logo from '../img/cc logo white.svg'
 
-const Hero = ({ image, logo }) => (
+const Hero = ({ image }) => (
   <div className="full-width-image hero is-fullsize"
     style={{
       backgroundImage:
@@ -37,7 +36,7 @@ const Hero = ({ image, logo }) => (
         justifyContent: 'center',
         alignItems: 'center',
       }}>
-        <SVG src={logo} style={{
+        <Logo style={{
           maxWidth: '70vw',
           maxHeight: '50vh',
         }} />
@@ -137,7 +136,7 @@ export const IndexPageTemplate = ({
   services,
 }) => (
     <>
-      <Hero {...{ image, logo }} />
+      <Hero {...{ image }} />
       <Sticky zIndex="2">
         <Navbar />
       </Sticky>

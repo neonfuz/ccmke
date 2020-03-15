@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../img/logo.svg'
+import Logo from '../img/logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
@@ -19,11 +19,7 @@ const Footer = class extends React.Component {
               <div className="columns">
                 <div className="column">
                   <div className="content has-text-centered">
-                    <img
-                      src={logo}
-                      alt="Creative Counseling of Milwaukee"
-                      style={{ width: '14em', height: '10em' }}
-                    />
+                    <Logo style={{ width: '14em', height: '10em' }} />
                   </div>
                   <section className="menu">
                     <ul className="menu-list is-right">
