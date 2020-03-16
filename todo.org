@@ -1,13 +1,16 @@
 * nav bar
 ** center menu button
-** mobile menu button text color
+** fix up mobile menu
+** New gradient?
 * hero
 ** responsive size & cropping
 ** logo centered and sized
-** multiple images with switcher
-* page
-** DONE background gradient on all pages
+** slideshow with buttons on etiher side
+* index page
 ** sections vertically sized
 ** add about pictures to md
-* make therapists editable in admin
-* remove stories
+** replace services image
+** remove image borders?
+** space services buttons?
+** remove social media buttons
+** style all headers with fatface
