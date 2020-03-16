@@ -11,9 +11,9 @@ const Navbar = ({ fixed, navRef }) => {
       role="navigation"
       aria-label="main-navigation"
       style={{
-        background: '#837bea',
-        borderTop: 'solid #3c3ea3 .2rem',
-        borderBottom: 'solid #3c3ea3 .2rem',
+        backgroundImage: 'linear-gradient(180deg, #837bea 0%, #423e75 100%)',
+        borderTop: 'solid black .05rem',
+        borderBottom: 'solid black .05rem',
       }}
       ref={navRef}
     >
