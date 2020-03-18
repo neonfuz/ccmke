@@ -1,16 +1,15 @@
-* nav bar
-** center menu button
-** fix up mobile menu
-** New gradient?
-* hero
-** responsive size & cropping
-** logo centered and sized
-** slideshow with buttons on etiher side
 * index page
-** sections vertically sized
-** add about pictures to md
-** replace services image
-** remove image borders?
-** space services buttons?
-** remove social media buttons
-** style all headers with fatface
+** nav bar
+*** TODO fix up mobile menu
+*** TODO improve look (styling)
+** hero
+*** TODO lighten image
+*** TODO fix background cropping / logo centering for all devices
+*** TODO slideshow with buttons on etiher side
+** TODO sections vertically sized
+** TODO add about pictures to md
+** TODO replace services image
+** TODO remove image borders?
+** TODO space services buttons?
+** TODO remove social media buttons
+** TODO style all headers with fatface
