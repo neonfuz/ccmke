@@ -1,0 +1,22 @@
+.Features figcaption
+  font-size: 1.2rem
+  line-height: 1rem
+  font-style: normal
+  padding-top: 1em
+  p.role
+    font-style: italic
+
+// TODO: Figure out how to make this more modular
+@import "~bulma/bulma"
+
+.Features
+  display: grid
+  grid-gap: 1em
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: auto auto auto auto auto
++tablet
+  .Features
+    grid-template-columns:  1fr 1fr 1fr 1fr
++desktop
+  .Features
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr

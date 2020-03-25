@@ -1,35 +1,24 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import styles from './Features.module.sass'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
+  <div className={styles.Features}>
     {gridItems.map(item => (
-      <div key={item.name} className="column is-2">
-        <section className="section" style={{ padding: 0 }}>
-          <figure style={{ margin: 0 }}>
-            <div className="has-text-centered">
-              <div
-                style={{
-                  width: '100%',
-                  display: 'inline-block',
-                }}
-              >
-                <PreviewCompatibleImage imageInfo={item} style={{ borderRadius: '50%' }}/>
-              </div>
-              <figcaption style={{
-                fontSize: '1.2rem',
-                lineHeight: '1rem',
-                fontStyle: 'normal',
-                paddingTop: '1em',
-              }}>
-                <p>{item.name}</p>
-                <p>{item.role}</p>
-              </figcaption>
+      <section className="section" style={{ padding: 0 }}>
+        <figure style={{ margin: 0 }}>
+          <div classname="has-text-centered">
+            <div style={{ width: '100%', display: 'inline-block' }}>
+              <PreviewCompatibleImage imageInfo={item} style={{ borderRadius: '50%' }}/>
             </div>
-          </figure>
-        </section>
-      </div>
+            <figcaption>
+              <p className={styles.name}>{item.name}</p>
+              <p className={styles.role}>{item.role}</p>
+            </figcaption>
+          </div>
+        </figure>
+      </section>
     ))}
   </div>
 )

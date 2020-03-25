@@ -281,3 +281,11 @@ pm 7:00 - started work
 11:00 - 11:30 inlining svgs
 * UNPAID 2020-03-16
 1:00 - 1:30 style changes
+* UNPAID 2020-03-17
+7:00 - 7:30 index page styling
+9:15 - 9:45 todo organization and collab with kate
+* UNPAID 2020-03-24
+5:45 - 6:00 working
+6:45 - 7:00 committing and pushing work
+8:30 - 9:00 testing IE and edge
+12:00 - 12:30 coding grid for therapists
