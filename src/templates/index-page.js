@@ -92,7 +92,7 @@ const Body = ({
             <Features gridItems={intro.blurbs.map(item => ({ ...item, alt: item.name }))} />
             <div className="columns">
               <div className="column is-12 has-text-centered">
-                <Link className="btn" to="/products">
+                <Link className="btn" style={{marginTop: '1em'}} to="/products">
                   About Us
                 </Link>
               </div>
