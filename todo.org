@@ -7,7 +7,6 @@
 *** TODO fix background cropping / logo centering for all devices
 *** TODO slideshow with buttons on etiher side
 ** TODO sections vertically sized
-** TODO add about pictures to md
 ** TODO replace services image
 ** TODO remove image borders?
 ** TODO space services buttons?
