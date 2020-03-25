@@ -279,3 +279,5 @@ pm 7:00 - started work
 * UNPAID 2020-03-15
 8:30 - 9:00 Working on inlining logo svgs and getting svg of services graphic
 11:00 - 11:30 inlining svgs
+* UNPAID 2020-03-16
+1:00 - 1:30 style changes

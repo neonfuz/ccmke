@@ -18,8 +18,12 @@ const Navbar = ({ fixed, navRef }) => {
       ref={navRef}
     >
       <div className="container">
-        <div className="navbar-brand">
-          <Link to="/" className="navbar-item" title="Logo" style={{ paddingLeft: '0', paddingTop: '0', paddingBottom: '0' }}>
+        <div className="navbar-brand" style={{
+          display: 'flex',
+          flexDirection: 'row',
+          alignItems: 'center',
+        }}>
+          <Link to="/" className="navbar-item" title="Logo" >
             <Logo style={{ height: '75px', maxHeight: '75px' }} />
           </Link>
           {/* Hamburger menu */}
@@ -27,7 +31,7 @@ const Navbar = ({ fixed, navRef }) => {
             className={`navbar-burger burger ${active ? 'is-active' : ''}`}
             data-target="navMenu"
             onClick={toggleHamburger}
-            style={{ background: 'none', border: 'none' }}
+            style={{ color: 'white', background: 'none', border: 'none' }}
           >
             <span />
             <span />
@@ -39,16 +43,16 @@ const Navbar = ({ fixed, navRef }) => {
           className={`navbar-menu ${active ? 'is-active' : ''}`}
         >
           <div className="navbar-end has-text-centered is-size-4">
-            <Link className="navbar-item light" to="/">
+            <Link className="navbar-item" to="/">
               Home
             </Link>
-            <Link className="navbar-item light" to="/about">
+            <Link className="navbar-item" to="/about">
               About Us
             </Link>
-            <Link className="navbar-item light" to="/services">
+            <Link className="navbar-item" to="/services">
               Services
             </Link>
-            <Link className="navbar-item light" to="/contact">
+            <Link className="navbar-item" to="/contact">
               Contact Us
             </Link>
           </div>
