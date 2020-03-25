@@ -169,17 +169,17 @@ kate is putting on nails and not listening very closely to video
  - 6:21 stopped to clear hdd space on computer
 :26 - started dev
 7:50 - hdd space
-* UNPAID 2020-01-04
+* PAID 2020-01-04
  - 7:00 - 9:00 - helping kate and coding site
  - 9:00 - coding heads
  - 10:30 done
 
 10-45 - doing hero with xd assets
 11:15 actually done
-* UNPAID 2020-01-05
+* PAID 2020-01-05
  - 8:45 - 9:15 helping kate
  - 11:45 actually done?? (confirm with kate)
-* UNPAID 2020-01-06
+* PAID 2020-01-06
  - 11:30 - 1:30 helped kate with xd work
 
 2 hours
@@ -191,10 +191,10 @@ kate is putting on nails and not listening very closely to video
 5:15 - 5:30 programmed heads, resolved coding issue
 6:15 - fixing kates copmuter
 
-* UNPAID 2020-01-08
+* PAID 2020-01-08
 5:15 - 5:45 coding
 6:30 - 7:00 meeting
-* UNPAID 2020-01-09
+* PAID 2020-01-09
 3:30 - 5:00 uploading and tweaking site
 6:15 - 6:30 purple background
 7:00 - 8:00 programming (check git)
@@ -207,12 +207,12 @@ kate is putting on nails and not listening very closely to video
 5 hours
 
 12:00 - 1:00 coding
-* UNPAID 2020-01-10
+* PAID 2020-01-10
 pm 8:00 - 10:00 setting up docker env
 pm 10:00 - 12:30 recoding template (added services, colors)
-* UNPAID 2020-01-12
+* PAID 2020-01-12
  - setting up admin page 1 hour
-* UNPAID 2020-01-12
+* PAID 2020-01-12
 6:30 - 7:00 Updating project and fixing warnings
 
 improving chrome audit score:
@@ -291,3 +291,4 @@ pm 7:00 - started work
 12:00 - 12:30 coding grid for therapists
 12:30 - 1:45 styling and coding homepage
 3:30 - 4:15 styling for mobile
+5:15 - 5:30 fixed navbar bug, made placeholder pages
