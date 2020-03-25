@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap');
 
 @import "~bulma/sass/utilities/initial-variables"
 
@@ -13,6 +14,12 @@ $body-color: #333
 $black: #2b2523
 
 $navbar-breakpoint: 769px
+
+$title-family: "Abril Fatface", serif
+$fancy-family: "Playfair Display", serif
+
+.subtitle, figcaption, .navbar a
+  font-family: $fancy-family
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -112,18 +119,6 @@ $menu-label-color: $white-ter
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em
-  text-align: center
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
 
 // blog roll
 .blog-list-item.is-featured
@@ -151,3 +146,16 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+.Features
+  display: grid
+  grid-gap: 1em
+  grid-template-columns: 1fr 1fr 1fr
+  grid-template-rows: auto auto auto auto auto
+
++tablet-only
+  .Features
+    grid-template-columns:  1fr 1fr 1fr 1fr
++desktop
+  .Features
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr

@@ -1,5 +1,4 @@
 import React from 'react'
-import Sticky from './react-sticky-fill'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import styles from './Services.module.sass'

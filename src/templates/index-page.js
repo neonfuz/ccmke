@@ -25,9 +25,7 @@ const Hero = ({ image }) => (
       maxHeight: '52vw',
       height: '80vh',
     }}>
-    <div className="hero-body" style={{
-      paddingTop: '75px',
-    }}>
+    <div className="hero-body">
       <div className="container" style={{
         textAlign: 'center',
         display: 'flex',
@@ -83,11 +81,11 @@ const Body = ({
       <div className="section">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <div className="content">
-              <h3 className="has-text-weight-semibold is-size-2">
+            <div className="content has-text-centered">
+              <h3 className="title is-size-2 is-spaced">
                 {heading}
               </h3>
-              <p>{description}</p>
+              <p className="subtitle is-size-4" style={{marginBottom: '2em'}}>{description}</p>
             </div>
             <Features gridItems={intro.blurbs.map(item => ({ ...item, alt: item.name }))} />
             <div className="columns">

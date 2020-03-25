@@ -4,17 +4,17 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import styles from './Features.module.sass'
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className={styles.Features}>
+  <div className="Features">
     {gridItems.map(item => (
       <section className="section" style={{ padding: 0 }}>
         <figure style={{ margin: 0 }}>
-          <div classname="has-text-centered">
+          <div>
             <div style={{ width: '100%', display: 'inline-block' }}>
               <PreviewCompatibleImage imageInfo={item} style={{ borderRadius: '50%' }}/>
             </div>
-            <figcaption>
-              <p className={styles.name}>{item.name}</p>
-              <p className={styles.role}>{item.role}</p>
+            <figcaption className="has-text-centered">
+              <p className="has-text-weight-bold">{item.name}</p>
+              <p className="is-italic">{item.role}</p>
             </figcaption>
           </div>
         </figure>
