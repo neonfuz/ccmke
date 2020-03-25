@@ -50,7 +50,7 @@ const TemplateWrapper = ({ noNavbar, children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      { noNavbar || <Navbar fixed />}
+      { noNavbar || <Navbar fixed /> }
       <div>{children}</div>
       <Footer />
     </div>
