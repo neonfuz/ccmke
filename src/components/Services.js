@@ -4,7 +4,7 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import styles from './Services.module.sass'
 
 export default ({services: {image, list}}) => (
-  <div className={"section" + ' ' + styles.Services}>
+  <div className={`section ${styles.Services}`}>
     <div className="container">
       <div className="columns is-vcentered">
         <div className="column is-8">
