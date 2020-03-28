@@ -296,3 +296,5 @@ pm 7:00 - started work
 * UNPAID 2020-03-28
 12:15 - 12:30 fixed all compiler warnings
 2:45 - 3:00 bugfixing
+3:00 - 4:00 adding services page
+4:45 - 5:15 services page start

@@ -70,11 +70,6 @@ const Body = ({
     </div>
   )
 
-const HR = () => <hr style={{
-  margin: '2rem 8rem',
-  backgroundColor: '#9f98eb',
-}}/>
-
 export const IndexPageTemplate = ({
   image,
   title,
@@ -91,9 +86,9 @@ export const IndexPageTemplate = ({
         <Navbar />
       </Sticky>
       <Mainpitch mainpitch={mainpitch} />
-      <HR />
+      <hr />
       <Body {...{ title, heading, subheading, description, intro }} />
-      <HR />
+      <hr />
       <Services {...{services}} />
     </>
   )
@@ -149,54 +144,55 @@ export const pageQuery = graphql`
             fluid(maxWidth: 2048, quality: 100) {
               ...GatsbyImageSharpFluid
             }
-        }
-      }
-      heading
-      subheading
-      mainpitch {
-        title
-        description
-        pics {
-          alt
-          width
-          image {
-            childImageSharp {
-              fluid(maxWidth: 320, quality: 80) {
-                ...GatsbyImageSharpFluid
-              }
-            }
           }
-        }
-      }
-      description
-      intro {
-        blurbs {
-          image {
-            childImageSharp {
-              fluid(maxWidth: 240, quality: 64) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          role
         }
         heading
-        description
-      }
-      services {
-        list {
-          name
-          link
+        subheading
+        mainpitch {
+          title
+          description
+          pics {
+            alt
+            width
+            image {
+              childImageSharp {
+                fluid(maxWidth: 320, quality: 80) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
         }
-        image {
-          childImageSharp {
-            fluid(maxWidth: 830, quality: 95) {
-              ...GatsbyImageSharpFluid
+        description
+        intro {
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            name
+            role
+          }
+          heading
+          description
+        }
+        services {
+          list {
+            name
+            link
+          }
+          image {
+            childImageSharp {
+              fluid(maxWidth: 830, quality: 95) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }
       }
     }
   }
-}`
+`
