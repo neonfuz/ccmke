@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Logo from '../img/logo.svg'
+import styles from './Footer.module.sass'
 
-import styles from './Footer.css'
+// Todo: fix fields up
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer className={`${styles.Footer} has-background-black has-text-white-ter`}>
         <div className="container">
           <div className="columns">
             <div className="column">
@@ -67,28 +67,34 @@ const Footer = class extends React.Component {
             </div>
             <div className="column">
               <section className="section">
-                <h2>Contact Us:</h2>
+                <h2 className="title">Contact Us:</h2>
                 <div className="field">
-                  <div className="label">Name</div>
                   <div className="control">
-                    <input className="input" name="name" type="name" value=""/>
+                    <div className="label">
+                      Name
+                      <input className="input" name="name" type="name" value=""/>
+                    </div>
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label">Email</label>
                   <div className="control has-icons-left">
-                    <input className="input" name="email" type="email" value="" />
+                    <label className="label">
+                      Email
+                      <input className="input" name="email" type="email" value="" />
+                    </label>
                     <span className="icon is-small is-left">
                       <i className="fas fa-envelope"></i>
                     </span>
                   </div>
                 </div>
                 <div className="field">
-                  <label className="label">Message</label>
                   <div className="field-body">
                     <div className="field">
                       <div className="control">
-                        <textarea className="textarea" name="message"></textarea>
+                        <label className="label">
+                          Message
+                          <textarea className="textarea" name="message"></textarea>
+                        </label>
                       </div>
                     </div>
                   </div>

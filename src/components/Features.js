@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
-import styles from './Features.module.sass'
+import './Features.module.sass'
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="Features">
