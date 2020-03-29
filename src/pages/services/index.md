@@ -26,33 +26,53 @@ services:
     - name: NIA Dance
       link: /services#nia-dance
 ---
-<h3 id="play-therapy" class="title">Child-Centered Play Therapy</h3>
+<div class="section" id="play-therapy">
+  <h3 class="title">Child-Centered Play Therapy</h3>
   Child-Centered Play Therapy
+</div>
 <hr/>
-<h3 id="sand-tray-therapy" class="title">Sand Tray Therapy</h3>
+<div class="section" id="sand-tray-therapy">
+  <h3 class="title">Sand Tray Therapy</h3>
   Sand Tray Therapy
+</div>
 <hr/>
-<h3 id="art-therapy" class="title">Art Therapy</h3>
-Art Therapy
+<div class="section" id="art-therapy">
+  <h3 class="title">Art Therapy</h3>
+  Art Therapy
+</div>
 <hr/>
-<h3 id="theraplay" class="title">Theraplay</h3>
-Theraplay
+<div class="section" id="theraplay">
+  <h3 class="title">Theraplay</h3>
+  Theraplay
+</div>
 <hr/>
-<h3 id="animal-centered-therapy" class="title">Animal-Centered Therapy</h3>
-Animal-Centered Therapy
+<div class="section" id="animal-centered-therapy">
+  <h3 class="title">Animal-Centered Therapy</h3>
+  Animal-Centered Therapy
+</div>
 <hr/>
-<h3 id="music-and-movement" class="title">Music & Movement</h3>
-Music & Movement
+<div class="section" id="music-and-movement">
+  <h3 class="title">Music & Movement</h3>
+  Music & Movement
+</div>
 <hr/>
-<h3 id="narrative-life-journaling" class="title">Narrative/Life Journaling</h3>
-Narrative/Life Journaling
+<div class="section" id="narrative-life-journaling">
+  <h3 class="title">Narrative/Life Journaling</h3>
+  Narrative/Life Journaling
+</div>
 <hr/>
-<h3 id="meditation-and-mindfulness" class="title">Meditation & Mindfulness</h3>
-Meditation & Mindfulness
+<div class="section" id="meditation-and-mindfulness">
+  <h3 class="title">Meditation & Mindfulness</h3>
+  Meditation & Mindfulness
+</div>
 <hr/>
-<h3 id="trauma-informed-yoga" class="title">Trauma-Informed Yoga</h3>
-Trauma-Informed Yoga
+<div class="section" id="trauma-informed-yoga">
+  <h3 class="title">Trauma-Informed Yoga</h3>
+  Trauma-Informed Yoga
+</div>
 <hr/>
-<h3 id="nia-dance" class="title">NIA Dance</h3>
-NIA Dance
+<div class="section" id="nia-dance">
+  <h3 class="title">NIA Dance</h3>
+  NIA Dance
+</div>
 <hr/>
