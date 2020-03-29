@@ -300,4 +300,6 @@ pm 7:00 - started work
 4:45 - 5:15 services page start
 5:15 - 6:00 trying to add extra images to slideshow
 6:45 - 7:00 fixed slideshow bug
-7:00 - 8:30 slideshow
+7:00 - 8:30 / 9:00 slideshow
+* UNPAID 2020-03-29
+10:15 - 10:30 Updating admin page, removing old content and controls
