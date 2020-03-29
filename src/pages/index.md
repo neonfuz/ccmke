@@ -41,37 +41,37 @@ intro:
       name: Kristin Stutter
       role: Yoga Instructor
     - image: /img/xd/mom cc.png
-      name: Sarah La Follette 3
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 4
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 5
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 6
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 7
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 8
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 9
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 10
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 11
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 12
-      role: Therapist
-    - image: /img/xd/mom cc.png
-      name: Sarah La Follette 13
+      name: Placeholder 3
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 4
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 5
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 6
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 7
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 8
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 9
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 10
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 11
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 12
+      role: therapist
+    - image: /img/profiles/placeholder.png
+      name: Placeholder 13
       role: Therapist
   heading: What we offer
   description: >
