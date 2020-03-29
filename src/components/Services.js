@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import styles from './Services.module.sass'
@@ -20,11 +20,11 @@ export default ({services: {image, list}}) => (
           <ul>
             { list.map(service => (
               <li>
-                <Link to={service.link}>
+                <AnchorLink to={service.link}>
                   <button>
                     {service.name}
                   </button>
-                </Link>
+                </AnchorLink>
               </li>
             )) }
           </ul>

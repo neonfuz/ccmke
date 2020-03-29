@@ -305,3 +305,4 @@ pm 7:00 - started work
 10:15 - 10:30 Updating admin page, removing old content and controls
 10:30 - 11:00 Linking services component on index and services page
 11:30 - 12:00 Services section
+12:00 - 12:15 Made service links scroll to proper place and smoothly
