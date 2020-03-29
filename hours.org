@@ -304,3 +304,4 @@ pm 7:00 - started work
 * UNPAID 2020-03-29
 10:15 - 10:30 Updating admin page, removing old content and controls
 10:30 - 11:00 Linking services component on index and services page
+11:30 - 12:00 Services section
