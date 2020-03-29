@@ -109,7 +109,7 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.indexPage
 
   return (
     <Layout noNavbar transparent>
@@ -121,7 +121,7 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
-        services={frontmatter.services}
+        services={data.servicesPage.frontmatter.services}
       />
     </Layout>
   )
@@ -129,7 +129,10 @@ const IndexPage = ({ data }) => {
 
 IndexPage.propTypes = {
   data: PropTypes.shape({
-    markdownRemark: PropTypes.shape({
+    indexPage: PropTypes.shape({
+      frontmatter: PropTypes.object,
+    }),
+    servicesPage: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
   }),
@@ -139,7 +142,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
-    markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
+    indexPage: markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
       frontmatter {
         title
         images {
@@ -184,6 +187,10 @@ export const pageQuery = graphql`
           heading
           description
         }
+      }
+    }
+    servicesPage: markdownRemark(frontmatter: {templateKey: {eq: "services-page" } }) {
+      frontmatter {
         services {
           list {
             name

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 import styles from './Services.module.sass'
@@ -19,11 +20,11 @@ export default ({services: {image, list}}) => (
           <ul>
             { list.map(service => (
               <li>
-                <a href={service.link}>
+                <Link to={service.link}>
                   <button>
                     {service.name}
                   </button>
-                </a>
+                </Link>
               </li>
             )) }
           </ul>
