@@ -1,7 +1,12 @@
 ---
 templateKey: index-page
 title: Creative Counseling of Milwaukee
-image: /img/slides/slide5.png
+images:
+- image: /img/slides/slide5.png
+- image: /img/slides/slide1.jpg
+- image: /img/slides/slide2.jpg
+- image: /img/slides/slide3.jpg
+- image: /img/slides/slide4.jpg
 heading: Meet our therapists
 subheading: bottom text
 mainpitch:

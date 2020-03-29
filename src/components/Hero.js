@@ -1,32 +1,35 @@
 import React from 'react'
+import BackgroundSlider from 'react-background-slider'
 import Logo from '../img/cc logo white.svg'
 
-export default ({ image }) => (
-  <div className="full-width-image hero is-fullsize"
-    style={{
-      backgroundImage:
-        `linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url(${
-        !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
-      backgroundPosition: `top`,
-      backgroundAttachment: `fixed`,
-      backgroundSize: '100vw 52vw',
-      maxHeight: '52vw',
-      height: '80vh',
-    }}>
-    <div className="hero-body">
-      <div className="container" style={{
-        textAlign: 'center',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+export default ({ images }) => {
+  const imglist = images.map(({image}) => !!image.childImageSharp ? image.childImageSharp.fluid.src : image)
+  console.log(JSON.stringify(imglist, null, 2))
+  return (
+    <>
+      <BackgroundSlider
+        duration={5}
+        transition={2}
+        images={imglist}
+      />
+      <div className="hero-body" style={{
+        height: 'calc(100vh - 120px)',
+        background: '#00000060',
       }}>
-        <Logo style={{
-          maxWidth: '70vw',
-          maxHeight: '50vh',
-        }} />
+        <div className="container" style={{
+          textAlign: 'center',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '100%',
+        }}>
+          <Logo style={{
+            maxWidth: '70vw',
+            maxHeight: '50vh',
+          }} />
+        </div>
       </div>
-    </div>
-  </div>
-)
+    </>
+  )
+}

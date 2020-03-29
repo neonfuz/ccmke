@@ -6,11 +6,13 @@ import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-const TemplateWrapper = ({ noNavbar, children }) => {
+const TemplateWrapper = ({ noNavbar, transparent, children }) => {
   const { title, description } = useSiteMetadata()
   return (
     <div style={{
-      background: 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)',
+      background: transparent
+        ? '#00000000'
+        : 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)',
     }}>
       <Helmet>
         <html lang="en" />

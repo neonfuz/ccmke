@@ -70,8 +70,9 @@ const Body = ({
     </div>
   )
 
+
 export const IndexPageTemplate = ({
-  image,
+  images,
   title,
   heading,
   subheading,
@@ -81,20 +82,22 @@ export const IndexPageTemplate = ({
   services,
 }) => (
     <>
-      <Hero {...{ image }} />
+      <Hero {...{ images }} />
       <Sticky zIndex="2">
         <Navbar />
       </Sticky>
-      <Mainpitch mainpitch={mainpitch} />
-      <hr />
-      <Body {...{ title, heading, subheading, description, intro }} />
-      <hr />
-      <Services {...{services}} />
+      <div style={{background: 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)'}}>
+        <Mainpitch mainpitch={mainpitch} />
+        <hr />
+        <Body {...{ title, heading, subheading, description, intro }} />
+        <hr />
+        <Services {...{services}} />
+      </div>
     </>
   )
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+  images: PropTypes.array, // TODO specify this further
   title: PropTypes.string,
   heading: PropTypes.string,
   subheading: PropTypes.string,
@@ -109,9 +112,9 @@ const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <Layout noNavbar>
+    <Layout noNavbar transparent>
       <IndexPageTemplate
-        image={frontmatter.image}
+        images={frontmatter.images}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -139,10 +142,12 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: {templateKey: {eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
+        images {
+          image {
+            childImageSharp {
+              fluid(maxWidth: 2048, quality: 100) {
+                ...GatsbyImageSharpFluid
+              }
             }
           }
         }

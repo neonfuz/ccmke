@@ -298,3 +298,6 @@ pm 7:00 - started work
 2:45 - 3:00 bugfixing
 3:00 - 4:00 adding services page
 4:45 - 5:15 services page start
+5:15 - 6:00 trying to add extra images to slideshow
+6:45 - 7:00 fixed slideshow bug
+7:00 - 8:30 slideshow
