@@ -12,7 +12,7 @@ intro:
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 therapists:
-    - id: sarah-la-follette 
+    - id: sarah-la-follette
       image: /img/xd/mom cc.png
       name: Sarah La Follette, LCSW
       phone: (414)-322-2807

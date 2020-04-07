@@ -34,7 +34,45 @@ collections:
         fields:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - label: Intro
+            name: intro
+            widget: object
+            fields:
+              - label: Image
+                name: image
+                widget: image
+              - label: Image Description
+                name: imageText
+                widget: string
+              - label: Body
+                name: body
+                widget: markdown
+          - label: Therapists
+            name: therapists
+            widget: list
+            fields:
+              - label: Scroll ID
+                name: id
+                widget: string
+              - label: Image
+                name: image
+                widget: image
+              - label: Name
+                name: name
+                widget: string
+              - label: Phone
+                name: phone
+                widget: string
+              - label: Email
+                name: email
+                widget: string
+              - label: Specialties
+                name: specialties
+                widget: list
+                field: {label: Specialty, name: specialty, widget: string}
+              - label: Body
+                name: body
+                widget: markdown
       - file: "src/pages/services/index.md"
         label: "Services"
         name: "services"

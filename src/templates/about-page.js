@@ -100,7 +100,6 @@ export const AboutPageTemplate = ({ frontmatter, content, contentComponent }) =>
               <Intro {...frontmatter.intro} />
               <hr />
               <Therapists therapists={frontmatter.therapists} />
-              <PageContent className="content" content={content} />
             </div>
           </div>
         </div>
