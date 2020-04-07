@@ -9,13 +9,16 @@ import Services from '../components/Services'
 export const ServicesPageTemplate = ({
   services,
   content,
+  contentComponent,
 }) => {
+  const PageContent = contentComponent || Content
+
   return (
     <div className="section">
       <Services {...{services}} />
       <hr />
       <div className="container">
-        <HTMLContent className="content" content={content} />
+        <PageContent className="content" content={content} />
       </div>
     </div>
   )
@@ -34,6 +37,7 @@ const ServicesPage = ({ data }) => {
       <ServicesPageTemplate
         services={frontmatter.services}
         content={html}
+        contentComponent={HTMLContent}
       />
     </Layout>
   )
