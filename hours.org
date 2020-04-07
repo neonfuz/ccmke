@@ -312,3 +312,5 @@ pm 7:00 - started work
 11:30 - 11:45 favicon
 * UNPAID 2020-04-07
 10:45 - 11:00 cleaned up image directory
+12:00 - 1:15 therapist bios section
+1:45 - 2:00 therapist bio section styling
