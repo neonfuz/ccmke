@@ -315,3 +315,5 @@ pm 7:00 - started work
 12:00 - 1:15 therapist bios section
 1:45 - 2:00 therapist bio section styling
 4:00 - 4:30 Updating admin page
+* UNPAID 2020-04-08
+7:30 - 7:45 about us styling and pictures
