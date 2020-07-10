@@ -31,7 +31,6 @@ const Mainpitch = ({
           }} height={320}>
             {mainpitch.pics.map(({width, ...info}, i) => (
               <PreviewCompatibleImage imageInfo={info} style={{
-                border: 'solid #837bea .7em',
                 minWidth: `${width}%`
               }} />
             ))}
@@ -49,7 +48,7 @@ const Body = ({
     <div className="container">
       <div className="section">
         <div className="columns">
-          <div className="column is-10 is-offset-1">
+          <div className="column is-12">
             <div className="content has-text-centered">
               <h3 className="title is-size-2 is-spaced">
                 {heading}
