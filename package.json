@@ -4,20 +4,20 @@
   "version": "1.1.3",
   "author": "Austin Green",
   "dependencies": {
-    "bulma": "^0.8.0",
+    "bulma": "^0.9.0",
     "css-supports": "^0.1.1",
     "gatsby": "^2.18.22",
     "gatsby-image": "^2.2.38",
     "gatsby-plugin-anchor-links": "^1.1.1",
     "gatsby-plugin-netlify": "^2.1.34",
     "gatsby-plugin-netlify-cms": "^4.1.41",
-    "gatsby-plugin-purgecss": "^4.0.0",
+    "gatsby-plugin-purgecss": "^5.0.0",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
     "gatsby-plugin-sharp": "^2.3.13",
     "gatsby-remark-copy-linked-files": "^2.1.36",
     "gatsby-remark-images": "^3.1.42",
-    "gatsby-remark-relative-images": "^0.2.1",
+    "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-remark": "^2.6.48",
     "gatsby-transformer-sharp": "^2.3.12",
@@ -33,8 +33,8 @@
     "react-background-slider": "^2.0.0",
     "react-dom": "^16.12.0",
     "react-equalizer": "^1.3.0",
-    "react-helmet": "^5.2.0",
-    "react-slideshow-image": "^1.3.4",
+    "react-helmet": "^6.1.0",
+    "react-slideshow-image": "^2.0.2",
     "stickyfill": "^1.1.1-strict",
     "uuid": "^3.2.1"
   },
@@ -52,8 +52,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.4",
     "babel-plugin-inline-react-svg": "^1.1.1",
-    "babel-preset-gatsby": "^0.2.35",
-    "prettier": "^1.15.3"
+    "babel-preset-gatsby": "^0.5.2",
+    "prettier": "^2.0.5"
   }
 }
