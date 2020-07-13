@@ -1,9 +1,9 @@
 * 2020 new edits needed
 ** DONE remove borders on all images
 ** DONE fix spacing on therapists heads section
+** TODO admin page previews
 ** TODO fix placeholder heads height
 ** TODO fix spacing on tripple photos
-** TODO admin page previews
 * index page
 ** nav bar
 *** TODO fix up mobile menu
