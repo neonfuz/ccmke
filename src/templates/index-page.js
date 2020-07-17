@@ -90,7 +90,7 @@ export const IndexPageTemplate = ({
         <hr />
         <Body {...{ title, heading, subheading, description, intro }} />
         <hr />
-        <Services {...{services}} />
+        {services && <Services {...{services}} />}
       </div>
     </>
   )
