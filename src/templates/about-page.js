@@ -2,7 +2,6 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
 import Image from '../components/PreviewCompatibleImage'
 
 const Intro = ({image, imageText, body}) => (
@@ -85,9 +84,7 @@ const Therapists = ({therapists}) => (
 
 
 
-export const AboutPageTemplate = ({ frontmatter, content, contentComponent }) => {
-  const PageContent = contentComponent || Content
-
+export const AboutPageTemplate = ({ title, intro, therapists }) => {
   return (
     <section className="section section--gradient">
       <div className="container">
@@ -95,11 +92,11 @@ export const AboutPageTemplate = ({ frontmatter, content, contentComponent }) =>
           <div className="column is-10 is-offset-1">
             <div className="section">
               <h2 className="title is-size-2 has-text-weight-bold is-bold-light">
-                {frontmatter.title}
+                {title}
               </h2>
-              <Intro {...frontmatter.intro} />
+              <Intro {...intro} />
               <hr />
-              <Therapists therapists={frontmatter.therapists} />
+              <Therapists therapists={therapists} />
             </div>
           </div>
         </div>
@@ -109,8 +106,9 @@ export const AboutPageTemplate = ({ frontmatter, content, contentComponent }) =>
 }
 
 AboutPageTemplate.propTypes = {
-  content: PropTypes.string,
-  contentComponent: PropTypes.func,
+  title: PropTypes.string,
+  intro: PropTypes.shape,
+  therapists: PropTypes.array,
 }
 
 const AboutPage = ({ data }) => {
@@ -119,9 +117,9 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
-        frontmatter={post.frontmatter}
-        content={post.html}
+        title={post.frontmatter.title}
+        intro={post.frontmatter.intro}
+        therapists={post.frontmatter.therapists}
       />
     </Layout>
   )
