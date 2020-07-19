@@ -2,11 +2,11 @@
 templateKey: index-page
 title: Creative Counseling of Milwaukee
 images:
-- image: /img/slides/slide5.png
-- image: /img/slides/slide1.jpg
-- image: /img/slides/slide2.jpg
-- image: /img/slides/slide3.jpg
-- image: /img/slides/slide4.jpg
+  - image: /img/slides/slide5.png
+  - image: /img/slides/slide1.jpg
+  - image: /img/slides/slide2.jpg
+  - image: /img/slides/slide3.jpg
+  - image: /img/slides/slide4.jpg
 heading: Meet our therapists
 subheading: bottom text
 mainpitch:
@@ -37,18 +37,18 @@ intro:
     - image: /img/sarah-r.png
       name: Sarah Rosenblatt
       role: Therapist
-    - image: /img/kristin.png
-      name: Kristin Stutter
-      role: Yoga Instructor
     - image: /img/xd/mom cc.png
-      name: Placeholder 3
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 4
-      role: therapist
+      name: Craig Stone
+      role: Therapist
+    - image: /img/ja-juan.jpg
+      name: Ja' juan Kennedy
+      role: Therapist
     - image: /img/profiles/placeholder.png
       name: Placeholder 5
       role: therapist
+    - image: /img/kristin.png
+      name: Kristin Stutter
+      role: Yoga Instructor
     - image: /img/profiles/placeholder.png
       name: Placeholder 6
       role: therapist
