@@ -43,30 +43,27 @@ intro:
     - image: /img/ja-juan.jpg
       name: Ja' juan Kennedy
       role: Therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 5
-      role: therapist
+    - image: /img/jessejastrom.jpg
+      name: Jesse Jastrom
+      role: Therapist
+    - image: /img/rae-bio-pic-.jpg
+      name: Rae Friedman
+      role: Therapist
     - image: /img/kristin.png
       name: Kristin Stutter
       role: Yoga Instructor
+    - image: /img/bethamie.jpg
+      name: Bethamie
+      role: Dance
+    - image: /img/paulag.jpg
+      name: Paula G
+      role: Substance Expert
+    - image: /img/23167926_1856735407673282_3820971896678131734_n.jpg
+      name: Bess
+      role: Substance Expert
     - image: /img/profiles/placeholder.png
-      name: Placeholder 6
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 7
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 8
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 9
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 10
-      role: therapist
-    - image: /img/profiles/placeholder.png
-      name: Placeholder 11
-      role: therapist
+      name: Eli Rosenblatt
+      role: Substance Experts
     - image: /img/profiles/placeholder.png
       name: Placeholder 12
       role: therapist
