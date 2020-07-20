@@ -322,6 +322,8 @@ pm 7:00 - started work
 - 2:00 - 5:00 fixing admin page
 - 6:30 - 6:45 fixing admin page
 
-* UNPAID 2020-07-20
+* UNPAID 2020-07-15
 - 12:30 - 1:00 fixed index page admin preview
 - 2:00 - 2:30 fixed about page admin preview
+* UNPAID 2020-07-19
+- 4:30 - 8:00 worked with kate
