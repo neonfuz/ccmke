@@ -82,9 +82,7 @@ export const IndexPageTemplate = ({
 }) => (
     <>
       <Hero {...{ images }} />
-      <Sticky zIndex="2">
-        <Navbar />
-      </Sticky>
+      <Sticky><Navbar /></Sticky>
       <div style={{background: 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)'}}>
         <Mainpitch mainpitch={mainpitch} />
         <hr />
@@ -147,7 +145,7 @@ export const pageQuery = graphql`
         images {
           image {
             childImageSharp {
-              fluid(maxWidth: 2048, quality: 100) {
+              fluid(maxWidth: 1600, quality: 80) {
                 ...GatsbyImageSharpFluid
               }
             }
