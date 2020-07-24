@@ -7,8 +7,9 @@ const style = {
     height: 'calc(100vh - 95px)',
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center',
-    background: '#00000060'
+    justifyContent: 'space-between',
+    background: '#00000060',
+    padding: '1em',
   },
   logo: {
     maxHeight: '80%',
@@ -16,7 +17,7 @@ const style = {
   },
   arrow: {
     color: 'white',
-    fontSize: '5rem',
+    fontSize: '5em',
   },
 }
 
