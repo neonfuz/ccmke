@@ -10,6 +10,7 @@ const style = {
     justifyContent: 'space-between',
     background: '#00000060',
     padding: '1em',
+    display: 'none',
   },
   logo: {
     maxHeight: '80%',
