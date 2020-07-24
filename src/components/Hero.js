@@ -16,7 +16,6 @@ const style = {
   },
   arrow: {
     color: 'white',
-    fontWeight: 'bold',
     fontSize: '5rem',
   },
 }
