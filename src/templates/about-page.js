@@ -28,7 +28,8 @@ Intro.propTypes = {
 
 const TherapistSection = ({id, image, name, phone, email, specialties, body}) => (
   <>
-    <div className="section" id={id}>
+    <div className="section" style={{padding: '0'}} id={id}>
+      <hr/>
       <div style={{
         float: 'left',
         width: '33%',
@@ -59,7 +60,6 @@ const TherapistSection = ({id, image, name, phone, email, specialties, body}) =>
         {body}
       </div>
     </div>
-    <hr />
   </>
 )
 
@@ -95,7 +95,6 @@ export const AboutPageTemplate = ({ title, intro, therapists }) => {
                 {title}
               </h2>
               <Intro {...intro} />
-              <hr />
               <Therapists therapists={therapists} />
             </div>
           </div>
