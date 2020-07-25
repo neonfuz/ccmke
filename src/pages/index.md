@@ -7,8 +7,6 @@ images:
   - image: /img/slides/slide2.jpg
   - image: /img/slides/slide3.jpg
   - image: /img/slides/slide4.jpg
-heading: Meet our therapists
-subheading: bottom text
 mainpitch:
   title: Who We Are
   description: >
@@ -21,14 +19,12 @@ mainpitch:
   pics:
     - image: /img/xd/Masks@2x.png
       alt: Mask Wall
-      width: 30
     - image: /img/xd/Diversity.png
       alt: Diversity Welcome Sign
-      width: 30
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
-      width: 30
-description: click on a picture to learn more
+heading: Meet our therapists
+subheading: click on a picture to learn more
 intro:
   blurbs:
     - image: /img/xd/mom cc.png

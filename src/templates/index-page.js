@@ -30,7 +30,7 @@ const Mainpitch = ({
 
 const Body = ({
   heading,
-  description,
+  subheading,
   intro,
 }) => (
     <div className="container">
@@ -41,7 +41,7 @@ const Body = ({
               <h3 className="title is-size-2 is-spaced">
                 {heading}
               </h3>
-              <p className="subtitle is-size-4" style={{marginBottom: '2em'}}>{description}</p>
+              <p className="subtitle is-size-4" style={{marginBottom: '2em'}}>{subheading}</p>
             </div>
             <Features gridItems={intro.blurbs.map(item => ({ ...item, alt: item.name }))} />
             <div className="columns">
@@ -64,7 +64,6 @@ export const IndexPageTemplate = ({
   heading,
   subheading,
   mainpitch,
-  description,
   intro,
   services,
 }) => (
@@ -74,7 +73,7 @@ export const IndexPageTemplate = ({
       <div style={{background: 'linear-gradient(0deg, #a49eed 0%, #d7d6e6 100%)'}}>
         <Mainpitch mainpitch={mainpitch} />
         <hr />
-        <Body {...{ title, heading, subheading, description, intro }} />
+        <Body {...{ title, heading, subheading, intro }} />
         <hr />
         {services && <Services {...{services}} />}
       </div>
@@ -87,7 +86,6 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
-  description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
@@ -104,7 +102,6 @@ const IndexPage = ({ data }) => {
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
         intro={frontmatter.intro}
         services={data.servicesPage.frontmatter.services}
       />
@@ -146,11 +143,11 @@ export const pageQuery = graphql`
           description
           pics {
             alt
-            width
             image {
               childImageSharp {
-                fluid(maxWidth: 320, quality: 80) {
+                fluid(maxHeight: 380, quality: 80) {
                   ...GatsbyImageSharpFluid
+                  aspectRatio
                 }
               }
             }
