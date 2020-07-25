@@ -23,9 +23,9 @@ mainpitch:
       alt: Diversity Welcome Sign
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
-heading: Meet our therapists
-subheading: click on a picture to learn more
 intro:
+  heading: Meet our therapists
+  subheading: click on a picture to learn more
   blurbs:
     - image: /img/xd/mom cc.png
       name: Sarah La Follette
@@ -66,10 +66,4 @@ intro:
     - image: /img/profiles/placeholder.png
       name: Placeholder 13
       role: Therapist
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
 ---
