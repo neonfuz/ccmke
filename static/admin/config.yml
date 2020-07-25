@@ -24,10 +24,9 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "index-page"}
           - {label: Title, name: title, widget: string}
           - {label: Slideshow Images, name: images, widget: list, field: {label: Image, name: image, widget: image}}
+          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}, {label: Images, name: pics, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Description, name: alt, widget: string}]}]}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
-          - {label: Mainpitch, name: mainpitch, widget: object, fields: [{label: Title, name: title, widget: string}, {label: Description, name: description, widget: text}]}
-          - {label: Description, name: description, widget: string}
           - {label: Intro, name: intro, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: text}, {label: Blurbs, name: blurbs, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Name, name: name, widget: text}, {label: Role, name: role, widget: text}]}]}
       - file: "src/pages/about/index.md"
         label: "About"

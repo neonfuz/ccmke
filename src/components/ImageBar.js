@@ -1,9 +1,9 @@
 import React from 'react'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-export default ({images}) => {
+export default ({images, gap = 3}) => {
   const getAspect = ({image}) => image.childImageSharp ? image.childImageSharp.fluid.aspectRatio : 1
-  const barAspect = images.map(getAspect).reduce((a, b) => a + b)
+  const barAspect = images.map(getAspect).reduce((a, b) => a + b) / (1 - 0.01*gap)
   const getPercent = image => `${getAspect(image)/barAspect*100}%`
 
   return (
@@ -13,12 +13,12 @@ export default ({images}) => {
       justifyContent: 'space-between',
       width: '100%',
     }} height={320}>
-      {images.map((info, i) => (
+      {images.filter(a => a).map((info, i) => (
         <PreviewCompatibleImage
           key={`imagebar-${i}`}
           imageInfo={info}
           style={{ width: getPercent(info) }}
-          imgStyle={{ objectFit: 'contain', margin: '1em' }} />
+          imgStyle={{ objectFit: 'contain' }} />
       ))}
     </div>
   )
