@@ -331,3 +331,4 @@ pm 7:00 - started work
 - 4:30 - 5:30 worked with kate
 * UNPAID 2020-07-24
 - 3:00 - 3:15 tweaking image quality
+  10:00 - 11:00 writing image equalizer bar
