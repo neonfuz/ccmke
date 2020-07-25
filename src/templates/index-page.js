@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import Equalizer from 'react-equalizer'
 
 import Hero from '../components/Hero'
 import Layout from '../components/Layout'
@@ -9,7 +8,7 @@ import Navbar from '../components/Navbar'
 import Sticky from '../components/react-sticky-fill'
 import Features from '../components/Features'
 import Services from '../components/Services'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import ImageBar from '../components/ImageBar'
 
 const Mainpitch = ({
   mainpitch,
@@ -23,18 +22,7 @@ const Mainpitch = ({
           <div className="tile">
             <h3 className="subtitle">{mainpitch.description}</h3>
           </div>
-          <Equalizer style={{
-            display: 'flex',
-            flexDirection: 'row',
-            justifyContent: 'space-around',
-            width: '100%',
-          }} height={320}>
-            {mainpitch.pics.map(({width, ...info}, i) => (
-              <PreviewCompatibleImage imageInfo={info} style={{
-                minWidth: `${width}%`
-              }} />
-            ))}
-          </Equalizer>
+          <ImageBar images={mainpitch.pics} />
         </div>
       </div>
     </div>
