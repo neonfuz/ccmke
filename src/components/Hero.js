@@ -10,14 +10,13 @@ const style = {
     justifyContent: 'space-between',
     background: '#00000060',
     padding: '1em',
-    display: 'none',
   },
   logo: {
     maxHeight: '80%',
     maxWidth: '80%',
   },
   arrow: {
-    color: 'white',
+    color: '#00000000',
     fontSize: '5em',
   },
 }
