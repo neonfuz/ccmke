@@ -332,3 +332,9 @@ pm 7:00 - started work
 * UNPAID 2020-07-24
 - 3:00 - 3:15 tweaking image quality
   10:00 - 11:00 writing image equalizer bar
+* UNPAID 2020-07-25
+11:00 - 12:00 fixed up therapist grid
+* UNPAID 2020-07-27
+8:00 - 9:00 cleaning up project
+* UNPAID 2020-07-28
+- 1:00 - 2:00 updating site title and meta info
