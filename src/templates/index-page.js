@@ -139,7 +139,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        description
         intro {
           heading
           subheading
