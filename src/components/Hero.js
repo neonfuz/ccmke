@@ -13,6 +13,7 @@ const style = {
   logo: {
     maxHeight: '80%',
     maxWidth: '80%',
+    width: '100%',
   },
   arrow: {
     color: '#00000000',
