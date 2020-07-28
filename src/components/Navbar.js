@@ -7,7 +7,7 @@ const Navbar = ({ fixed, navRef }) => {
   const toggleHamburger = () => setActive(active => !active)
   return (
     <>
-      {fixed && <div style={{height: '75px'}}/>}
+      {fixed && <div style={{height: '90px'}}/>}
       <nav
         className={`navbar is-transparent${fixed ? ' is-fixed-top' : ''}`}
         role="navigation"
