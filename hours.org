@@ -339,3 +339,5 @@ pm 7:00 - started work
 * UNPAID 2020-07-28
 - 1:00 - 2:00 updating site title and meta info
   2:00 - 3:00 deleted old pages and added 404
+  2:00 - 2:30 submissions, nav bar, style
+  2:30 - 3:30 restyling

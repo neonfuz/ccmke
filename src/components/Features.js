@@ -10,7 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
         <figure style={{ margin: 0 }}>
           <div>
             <div style={{ width: '100%', display: 'inline-block' }}>
-              <PreviewCompatibleImage imageInfo={item} style={{ borderRadius: '50%' }}/>
+              <PreviewCompatibleImage className="no-shadow" imageInfo={item} style={{ borderRadius: '50%' }}/>
             </div>
             <figcaption className="has-text-centered">
               <p className="has-text-weight-bold">{item.name}</p>

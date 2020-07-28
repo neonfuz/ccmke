@@ -17,6 +17,7 @@ export default ({images, gap = 3}) => {
         <PreviewCompatibleImage
           key={`imagebar-${i}`}
           imageInfo={info}
+          className="no-shadow"
           style={{ width: getPercent(info) }}
           imgStyle={{ objectFit: 'contain' }} />
       ))}
