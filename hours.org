@@ -341,3 +341,5 @@ pm 7:00 - started work
   2:00 - 3:00 deleted old pages and added 404
   2:00 - 2:30 submissions, nav bar, style
   2:30 - 3:30 restyling
+  3:30 - 4:00 fixed firefox webfonts
+  4:00 - 5:00 fixed hero logo on chrome

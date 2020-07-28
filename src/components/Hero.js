@@ -1,6 +1,5 @@
 import React from 'react'
 import BackgroundSlider from 'react-background-slider'
-import Logo from '../img/cc logo white.svg'
 
 const style = {
   hero: {
@@ -32,7 +31,9 @@ export default ({ images }) => (
       images={images.map(getSharpImage)} />
     <div style={style.hero}>
       <div style={style.arrow}>{'<'}</div>
-      <Logo style={style.logo}/>
+      <img style={style.logo}
+           src="/img/logo.svg"
+           alt="Creative Counseling of Milwaukee" />
       <div style={style.arrow}>{'>'}</div>
     </div>
   </>
