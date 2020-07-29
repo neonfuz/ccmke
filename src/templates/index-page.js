@@ -14,12 +14,13 @@ const Mainpitch = ({ mainpitch }) => (
     <div className="container">
       <div className="section">
         <div className="content">
-          <div className="tile">
-            <h1 className="title">{mainpitch.title}</h1>
-          </div>
-          <div className="tile">
-            <h3 className="subtitle">{mainpitch.description}</h3>
-          </div>
+          <h1 className="title is-size-2 has-text-centered"
+              style={{marginBottom: '1em'}}>
+            {mainpitch.title}
+          </h1>
+          <h3 className="subtitle has-text-justified">
+            {mainpitch.description}
+          </h3>
           <ImageBar images={mainpitch.pics} />
         </div>
       </div>
