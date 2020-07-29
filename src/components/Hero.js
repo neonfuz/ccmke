@@ -39,10 +39,12 @@ const getSharpImage = minWidth => ({image}) => {
   return match.file
 }
 
+// default to 1024 for SSR
+const windowWidth = typeof window !== "undefined" ? window.innerWidth : 1024
+
 const useWidth = () => {
-  if (typeof window === "undefined") return 1024 // SSR
-  const [width, setWidth] = React.useState(window.innerWidth)
-  const updateWidth = () => setWidth(window.innerWidth)
+  const [width, setWidth] = React.useState(windowWidth())
+  const updateWidth = () => setWidth(windowWidth())
   React.useEffect(() => {
     window.addEventListener("resize", updateWidth)
     return () => window.removeEventListener("resize", updateWidth)
@@ -61,12 +63,9 @@ export default ({ images }) => {
         images={sizedImages} />
       <div style={style.hero}>
         <div style={style.arrow}>{'<'}</div>
-        <div style={{color: 'white'}}>
-          <img style={style.logo}
-               src="/img/logo.svg"
-               alt="Creative Counseling of Milwaukee" />
-          {width}
-        </div>
+        <img style={style.logo}
+             src="/img/logo.svg"
+             alt="Creative Counseling of Milwaukee" />
         <div style={style.arrow}>{'>'}</div>
       </div>
     </>
