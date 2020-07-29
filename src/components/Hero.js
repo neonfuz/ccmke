@@ -21,21 +21,53 @@ const style = {
   },
 }
 
-const getSharpImage = ({image}) =>
-      !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+const getSharpImage = minWidth => ({image}) => {
+  if (!image.childImageSharp)
+    return image
 
-export default ({ images }) => (
-  <>
-    <BackgroundSlider
-      duration={5}
-      transition={1}
-      images={images.map(getSharpImage)} />
-    <div style={style.hero}>
-      <div style={style.arrow}>{'<'}</div>
-      <img style={style.logo}
-           src="/img/logo.svg"
-           alt="Creative Counseling of Milwaukee" />
-      <div style={style.arrow}>{'>'}</div>
-    </div>
-  </>
-)
+  const images = image.childImageSharp.fluid.srcSet
+    .split(',\n')
+    .map(src => {
+      const [line, file, width] = src.match(/(.*) ([0-9]*)w$/)
+      return { width: Number(width), file }
+    })
+
+  const match = [...images, {width: Math.infinity, file: image}]
+        .filter(a => a.width >= minWidth)
+        .reduce((a, b) => a.width < b.width ? a : b)
+
+  return match.file
+}
+
+const useWidth = () => {
+  const [width, setWidth] = React.useState(window.innerWidth)
+  const updateWidth = () => setWidth(window.innerWidth)
+  React.useEffect(() => {
+    window.addEventListener("resize", updateWidth)
+    return () => window.removeEventListener("resize", updateWidth)
+  })
+  return width
+}
+
+export default ({ images }) => {
+  const width = useWidth()
+  const sizedImages = images.map(getSharpImage(width))
+  return (
+    <>
+      <BackgroundSlider
+        duration={5}
+        transition={1}
+        images={sizedImages} />
+      <div style={style.hero}>
+        <div style={style.arrow}>{'<'}</div>
+        <div style={{color: 'white'}}>
+          <img style={style.logo}
+               src="/img/logo.svg"
+               alt="Creative Counseling of Milwaukee" />
+          {width}
+        </div>
+        <div style={style.arrow}>{'>'}</div>
+      </div>
+    </>
+  )
+}
