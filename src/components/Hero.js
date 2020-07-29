@@ -40,7 +40,7 @@ const getSharpImage = minWidth => ({image}) => {
 }
 
 // default to 1024 for SSR
-const windowWidth = typeof window !== "undefined" ? window.innerWidth : 1024
+const windowWidth = () => typeof window !== "undefined" ? window.innerWidth : 1024
 
 const useWidth = () => {
   const [width, setWidth] = React.useState(windowWidth())
