@@ -42,7 +42,9 @@ const TemplateWrapper = ({ noNavbar, transparent, children }) => {
           href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#827ae9" />
+
+        <meta name="viewport" content= "width=device-width, minimum-scale=1" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />
