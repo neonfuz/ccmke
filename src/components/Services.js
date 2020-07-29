@@ -16,7 +16,7 @@ export default ({services: {image, list}}) => (
           </figure>
         </div>
         <div className="column is-4">
-          <h2 className={styles.heading}>Our Services:</h2>
+          <h2 className="title is-size-2 has-text-centered">Our Services</h2>
           <ul>
             { list.map(service => (
               <li>

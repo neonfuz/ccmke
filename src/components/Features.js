@@ -7,8 +7,8 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="Features">
     {gridItems.map(item => (
       <section className="section" style={{ padding: 0 }}>
-        <figure style={{ margin: 0 }}>
-          <div>
+        <a href="/about">
+          <figure style={{ margin: 0 }}>
             <div style={{ width: '100%', display: 'inline-block' }}>
               <PreviewCompatibleImage className="no-shadow" imageInfo={item} style={{ borderRadius: '50%' }}/>
             </div>
@@ -16,8 +16,8 @@ const FeatureGrid = ({ gridItems }) => (
               <p className="has-text-weight-bold">{item.name}</p>
               <p className="is-italic">{item.role}</p>
             </figcaption>
-          </div>
-        </figure>
+          </figure>
+        </a>
       </section>
     ))}
   </div>

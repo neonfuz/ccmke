@@ -1,9 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Logo from '../img/logo.svg'
-import styles from './Footer.module.sass'
 
-// Todo: fix fields up
+// TODO: fix fields up
 
 const Footer = class extends React.Component {
   render() {
