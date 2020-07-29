@@ -40,6 +40,7 @@ const getSharpImage = minWidth => ({image}) => {
 }
 
 const useWidth = () => {
+  if (typeof window === "undefined") return 1024 // SSR
   const [width, setWidth] = React.useState(window.innerWidth)
   const updateWidth = () => setWidth(window.innerWidth)
   React.useEffect(() => {
