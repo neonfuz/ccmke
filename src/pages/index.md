@@ -35,7 +35,7 @@ intro:
       id: sarah-rosenblatt
       name: Sarah Rosenblatt
       role: Therapist
-    - image: /img/xd/mom cc.png
+    - image: /img/craig.png
       id: craig-stone
       name: Craig Stone
       role: Therapist
