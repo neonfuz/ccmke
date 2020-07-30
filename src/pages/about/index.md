@@ -38,32 +38,32 @@ therapists:
       countries of origin. I believe psychotherapy and meditation can help
       relieve you from anxiety and suffering. With children, I use
       child-centered play therapy, sand tray therapy, and acting and art.
-  - id: therapist-2
+  - id: sarah-rosenblatt
     image: /img/sarah-r.jpg
     name: Sarah Rosenblatt, LCSW
     phone: (000)-000-0000
     email: foo@bar.com
     body: |
       more text
-  - id: Craig Stone
+  - id: craig-stone
     image: /img/favicon-32x32.png
     name: Craig Stone
     phone: h;kshfkshf
     email: sfsfsd@go.com
     body: Placeholder
-  - id: Sha'Jaun Kennedy, Lcsw
+  - id: ja-juan-kennedy
     image: /img/ja-juan.jpg
     name: Sha'Juan Kennedy
     phone: dhgkjag
     email: hjgdsjh@com
     body: Placeholder
-  - id: Jesse Jastrom
+  - id: jesse-jastrom
     image: /img/jessejastrom.jpg
     name: Jesse Jastrom
     phone: jgdshagdljas
     email: asggdkj
     body: Placeholder
-  - id: Rae Friedman
+  - id: rae-friedman
     image: /img/rae-bio-pic-.jpg
     name: Rae Friedman, Yoga
     phone: dnfhsf
