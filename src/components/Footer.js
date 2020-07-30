@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Logo from '../img/logo.svg'
+import styles from './Footer.module.sass'
 
 // TODO: fix fields up
 
