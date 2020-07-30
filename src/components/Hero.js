@@ -21,6 +21,8 @@ const style = {
   },
 }
 
+const getBase64Image = ({image}) => image.childImageSharp.fluid.base64
+
 const getSharpImage = minWidth => ({image}) => {
   if (!image.childImageSharp)
     return image
@@ -54,13 +56,28 @@ const useWidth = () => {
 
 export default ({ images }) => {
   const width = useWidth()
-  const sizedImages = images.map(getSharpImage(width))
+  const [imgs, setImgs] = React.useState(images.map(getBase64Image))
+  React.useEffect(() => {
+    const srcs = images.map(getSharpImage(width))
+    let img = new Image()
+    function getNext(i) {
+      img.src = srcs[i]
+      img.onLoad(() => {
+        let _imgs = [...images]
+        _imgs[i] = src
+        setImgs(_imgs)
+        if (i+1 <= srcs.length)
+          getNext(i+1)
+      })
+    }
+    getNext(0)
+  }, [width])
   return (
     <>
       <BackgroundSlider
         duration={5}
         transition={1}
-        images={sizedImages} />
+        images={imgs} />
       <div style={style.hero}>
         <div style={style.arrow}>{'<'}</div>
         <img style={style.logo}
