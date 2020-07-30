@@ -56,7 +56,7 @@ const Footer = class extends React.Component {
             </div>
             <div className="column">
               <section className="section">
-                <h2 className="title">Contact Us:</h2>
+                <h2 className="title has-text-centered">Contact Us</h2>
                 <div className="field">
                   <div className="control">
                     <div className="label">
