@@ -44,13 +44,13 @@ collections:
                     widget: image
                   - label: Name
                     name: name
-                    widget: text
+                    widget: string
                   - label: Role
                     name: role
-                    widget: text
+                    widget: string
                   - label: Scroll ID
                     name: id
-                    widget: text
+                    widget: string
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
