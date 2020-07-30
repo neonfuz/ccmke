@@ -62,13 +62,13 @@ export default ({ images }) => {
     let img = new Image()
     function getNext(i) {
       img.src = srcs[i]
-      img.onLoad(() => {
+      img.onload = () => {
         let _imgs = [...images]
-        _imgs[i] = src
+        _imgs[i] = srcs[i]
         setImgs(_imgs)
         if (i+1 <= srcs.length)
           getNext(i+1)
-      })
+      }
     }
     getNext(0)
   }, [width])
