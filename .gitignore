@@ -9,3 +9,4 @@ static/admin/*.bundle.*
 yarn-error.log
 /assets/
 /.yarn_cache
+/docker_build
