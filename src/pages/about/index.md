@@ -46,7 +46,7 @@ therapists:
     body: |
       more text
   - id: craig-stone
-    image: /img/favicon-32x32.png
+    image: /img/craig.png
     name: Craig Stone
     phone: h;kshfkshf
     email: sfsfsd@go.com
