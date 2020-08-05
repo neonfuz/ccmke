@@ -7,36 +7,41 @@ import Content, { HTMLContent } from '../components/Content'
 import Services from '../components/Services'
 
 export const ServicesPageTemplate = ({
+  image,
   services,
-  content,
   contentComponent,
 }) => {
   const PageContent = contentComponent || Content
 
   return (
-    <div className="section">
-      <Services {...{services}} />
-      <hr />
-      <div className="container">
-        <PageContent className="content" content={content} />
-      </div>
+    <div className="container">
+      <Services services={{image, services}}/>
+      { services.map(service => (
+        <section key={`service=${service.id}`} id={service.id} className="section">
+          <hr />
+          <h3 className="title">
+            {service.name}
+          </h3>
+          <PageContent className="content" content={service.body} />
+        </section>
+      )) }
     </div>
   )
 }
 
 ServicesPageTemplate.propTypes = {
   services: PropTypes.object,
-  content: PropTypes.string
+  // TODO: add image
 }
 
 const ServicesPage = ({ data }) => {
-  const { frontmatter, html } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark
 
   return (
     <Layout>
       <ServicesPageTemplate
         services={frontmatter.services}
-        content={html}
+        image={frontmatter.image}
         contentComponent={HTMLContent}
       />
     </Layout>
@@ -47,7 +52,6 @@ ServicesPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
-      html: PropTypes.string,
     }),
   }),
 }
@@ -59,20 +63,18 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: {templateKey: {eq: "services-page" } }) {
       frontmatter {
         services {
-          list {
-            name
-            link
-          }
-          image {
-            childImageSharp {
-              fluid(maxWidth: 830, quality: 95) {
-                ...GatsbyImageSharpFluid
-              }
+          name
+          id
+          body
+        }
+        image {
+          childImageSharp {
+            fluid(maxWidth: 830, quality: 95) {
+              ...GatsbyImageSharpFluid
             }
           }
         }
       }
-      html
     }
   }
 `

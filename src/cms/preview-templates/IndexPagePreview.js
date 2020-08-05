@@ -15,6 +15,7 @@ const IndexPagePreview = ({ entry, getAsset }) => {
           mainpitch={data.mainpitch}
           description={data.description}
           intro={data.intro}
+          noServices={true}
         />
     )
   } else {

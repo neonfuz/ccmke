@@ -58,7 +58,7 @@ export const IndexPageTemplate = ({
   title,
   mainpitch,
   intro,
-  services,
+  noServices = false,
 }) => (
     <>
       <Hero {...{ images }} />
@@ -67,8 +67,7 @@ export const IndexPageTemplate = ({
         <Mainpitch mainpitch={mainpitch} />
         <hr />
         <Body {...{ title, intro }} />
-        <hr />
-        {services && <Services {...{services}} />}
+        {noServices || [<hr />, <Services />]}
       </div>
     </>
   )
@@ -92,7 +91,6 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         mainpitch={frontmatter.mainpitch}
         intro={frontmatter.intro}
-        services={data.servicesPage.frontmatter.services}
       />
     </Layout>
   )
@@ -101,9 +99,6 @@ const IndexPage = ({ data }) => {
 IndexPage.propTypes = {
   data: PropTypes.shape({
     indexPage: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-    servicesPage: PropTypes.shape({
       frontmatter: PropTypes.object,
     }),
   }),
@@ -154,23 +149,6 @@ export const pageQuery = graphql`
             name
             role
             id
-          }
-        }
-      }
-    }
-    servicesPage: markdownRemark(frontmatter: {templateKey: {eq: "services-page" } }) {
-      frontmatter {
-        services {
-          list {
-            name
-            link
-          }
-          image {
-            childImageSharp {
-              fluid(maxWidth: 830, quality: 95) {
-                ...GatsbyImageSharpFluid
-              }
-            }
           }
         }
       }

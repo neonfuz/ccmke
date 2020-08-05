@@ -6,9 +6,11 @@ import '../components/all.sass'
 
 import IndexPagePreview from './preview-templates/IndexPagePreview'
 import AboutPagePreview from './preview-templates/AboutPagePreview'
+import ServicesPagePreview from './preview-templates/ServicesPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
 CMS.registerPreviewTemplate('index', IndexPagePreview)
 CMS.registerPreviewTemplate('about', AboutPagePreview)
+CMS.registerPreviewTemplate('services', ServicesPagePreview)

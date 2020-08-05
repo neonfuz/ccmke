@@ -21,7 +21,11 @@ const style = {
   },
 }
 
-const getBase64Image = ({image}) => image.childImageSharp.fluid.base64
+const getBase64Image = ({image}) => {
+  return typeof image === 'string'
+    ? image
+    : image.childImageSharp.fluid.base64
+}
 
 const getSharpImage = minWidth => ({image}) => {
   if (!image.childImageSharp)
