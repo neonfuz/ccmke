@@ -353,3 +353,7 @@ pm 7:00 - started work
   2:00 - 3:30 cleaning up code
 * UNPAID 2020-08-05
 - 3:00 - 4:30 cleaning up code (services page mostly)
+* UNPAID 2020-08-26
+- 7:00 - 8:30 working with kate
+* UNPAID 2020-08-27
+- 6:30 - 7:00 added images to services page
