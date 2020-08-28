@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import Services from '../components/Services'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 export const ServicesPageTemplate = ({
   image,
@@ -22,7 +23,17 @@ export const ServicesPageTemplate = ({
           <h3 className="title">
             {service.name}
           </h3>
-          <PageContent className="content" content={service.body} />
+          <div class="columns">
+            <div class="column is-8">
+              <PageContent className="content" content={service.body} />
+            </div>
+            <div class="column is-4">
+              {service.image && <PreviewCompatibleImage imageInfo={{
+                image: service.image,
+                alt: service.imageText,
+              }} />}
+            </div>
+          </div>
         </section>
       )) }
     </div>
@@ -65,6 +76,13 @@ export const pageQuery = graphql`
         services {
           name
           id
+          image {
+            childImageSharp {
+              fluid(maxWidth: 500, quality: 90) {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
           body
         }
         image {
