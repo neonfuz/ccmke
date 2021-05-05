@@ -30,49 +30,37 @@ intro:
     - image: /img/xd/mom cc.png
       id: sarah-la-follette
       name: Sarah La Follette
-      role: Therapist
+      role: Therapist  / Clinic Owner
     - image: /img/sarah-r.png
       id: sarah-rosenblatt
       name: Sarah Rosenblatt
-      role: Therapist
+      role: Therapist / Clinic Owner
     - image: /img/21199805_10213918055126382_2841736803325680717_o.jpg
       id: craig-stone
       name: Craig Stone
-      role: Therapist
+      role: Therapist / Clinic Owner
     - image: /img/ja-juan.jpg
-      id: ja-juan-kennedy
-      name: Ja' juan Kennedy
+      id: Sha-Juan-Kennedy
+      name: Sha' Juan Kennedy
       role: Therapist
     - image: /img/jessejastrom.jpg
-      id: jesse-jastrom
-      name: Jesse Jastrom
+      id: jesse-jastram
+      name: Jesse Jastram
       role: Therapist
     - image: /img/rae-bio-pic-.jpg
       id: rae-friedman
       name: Rae Friedman
-      role: Therapist
-    - image: /img/kristin.png
-      id: kristin-stutter
-      name: Kristin Stutter
-      role: Yoga Instructor
+      role: Staff
     - image: /img/bethamie.jpg
       id: bethamie
       name: Bethamie
       role: Dance
     - image: /img/paulag.jpg
       id: paula-g
-      name: Paula G
-      role: Substance Expert
+      name: Paula
+      role: Staff
     - image: /img/23167926_1856735407673282_3820971896678131734_n.jpg
       id: bess
       name: Bess
-      role: Substance Expert
-    - image: /img/profiles/placeholder.png
-      id: eli-rosenblatt
-      name: Eli Rosenblatt
-      role: Substance Experts
-    - image: /img/profiles/placeholder.png
-      id: placeholder-12
-      name: Placeholder 12
-      role: therapist
+      role: Staff
 ---
