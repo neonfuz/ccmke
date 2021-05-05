@@ -51,7 +51,7 @@ therapists:
     phone: h;kshfkshf
     email: sfsfsd@go.com
     body: Placeholder
-  - id: ja-juan-kennedy
+  - id: Sha' Juan-Kennedy
     image: /img/ja-juan.jpg
     name: Sha'Juan Kennedy
     phone: dhgkjag
