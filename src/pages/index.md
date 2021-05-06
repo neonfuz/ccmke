@@ -71,4 +71,8 @@ intro:
       name: Eriks Johnson
       role: Staff
       id: Eriks Johnson
+    - image: /img/background.png
+      name: Andrew Senger
+      role: Staff
+      id: Andrew Senger
 ---
