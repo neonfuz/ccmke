@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Creative Counseling of Milwaukee
+title: Creative Counseling of Milwaukee "Wellness through Creativity".
 images:
   - image: /img/slides/slide5.png
   - image: /img/slides/slide1.jpg
