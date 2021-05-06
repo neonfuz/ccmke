@@ -36,7 +36,7 @@ therapists:
   - id: sarah-rosenblatt
     image: /img/sarah-r.jpg
     name: Sarah Rosenblatt, LCSW
-    phone: (414)-405-8471
+    phone: (414) 405-8471
     email: srosenblatt@ccmke.us
     body: |
       more text
