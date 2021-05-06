@@ -59,4 +59,8 @@ intro:
       id: bess
       name: Bess
       role: Staff
+    - name: Shaquita Glenn
+      role: Therapist
+      id: Shaquita Glenn
+      image: /img/background.png
 ---
