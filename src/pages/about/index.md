@@ -49,8 +49,8 @@ therapists:
   - id: Sha' Juan-Kennedy
     image: /img/ja-juan.jpg
     name: Sha'Juan Kennedy
-    phone: dhgkjag
-    email: hjgdsjh@com
+    phone: (414) 399-8736
+    email: skennedy@ccmke.us
     body: Placeholder
   - id: jesse-jastrom
     image: /img/jessejastrom.jpg
