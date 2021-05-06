@@ -1,7 +1,8 @@
 ---
 templateKey: services-page
 path: /services
-title: Services
+title: "Services - We tailor our care to each individual and family using the
+  following:"
 image: /img/services.png
 services:
   - name: Child-Centered Play Therapy
