@@ -63,4 +63,8 @@ intro:
       role: Therapist
       id: Shaquita Glenn
       image: /img/background.png
+    - image: /img/background.png
+      name: Mike Gondek
+      role: Staff
+      id: Mike Gondek
 ---
