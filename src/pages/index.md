@@ -75,4 +75,12 @@ intro:
       name: Andrew Senger
       role: Staff
       id: Andrew Senger
+    - image: /img/background.png
+      name: Cassandra Torres-Adams
+      role: Staff
+      id: Cassandra Torres-Adams
+    - image: /img/background.png
+      name: Beryl Mc Cuaig
+      role: Staff
+      id: Beryl Mc Cuaig
 ---
