@@ -43,8 +43,8 @@ therapists:
   - id: craig-stone
     image: /img/21199805_10213918055126382_2841736803325680717_o.jpg
     name: Craig Stone
-    phone: h;kshfkshf
-    email: sfsfsd@go.com
+    phone: (414)-405-0670
+    email: cstone@ccmke.us
     body: Placeholder
   - id: Sha' Juan-Kennedy
     image: /img/ja-juan.jpg
