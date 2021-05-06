@@ -67,4 +67,8 @@ intro:
       name: Mike Gondek
       role: Staff
       id: Mike Gondek
+    - image: /img/background.png
+      name: Eriks Johnson
+      role: Staff
+      id: Eriks Johnson
 ---
