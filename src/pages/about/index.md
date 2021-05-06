@@ -36,8 +36,8 @@ therapists:
   - id: sarah-rosenblatt
     image: /img/sarah-r.jpg
     name: Sarah Rosenblatt, LCSW
-    phone: (000)-000-0000
-    email: foo@bar.com
+    phone: (414)-405-8471
+    email: srosenblatt@ccmke.us
     body: |
       more text
   - id: craig-stone
