@@ -60,8 +60,8 @@ therapists:
     body: Placeholder
   - id: rae-friedman
     image: /img/rae-bio-pic-.jpg
-    name: Rae Friedman, Yoga
-    phone: dnfhsf
-    email: dsfhlksaj
+    name: Rae Friedman
+    phone: (414) 520-xxxx
+    email: rfriedman@ccmke.us
     body: Placeholder
 ---
