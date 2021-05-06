@@ -106,4 +106,6 @@ services:
       est laborum.
   - name: Bibliotherapy
     id: Bibliotherapy
+  - name: Diet and Nutrition
+    id: Diet and Nutrition
 ---
