@@ -10,7 +10,7 @@ therapists:
   - id: sarah-la-follette
     image: /img/xd/mom cc.png
     name: Sarah La Follette, LCSW
-    phone: (414)-322-2807
+    phone: (414) 322-2807
     email: LaFolletteSarah@gmail.com
     specialties:
       - Trauma and PTSD
