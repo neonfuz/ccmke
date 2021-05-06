@@ -45,7 +45,7 @@ services:
       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
       est laborum.
   - name: Animal-Assisted Therapy
-    id: animal-centered-therapy
+    id: Animal-Assisted Therapy
     image: /img/services.png
     body: Animal-Centered Therapy Lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
