@@ -73,7 +73,7 @@ intro:
       id: Eriks Johnson
     - image: /img/background.png
       name: Andrew Senger
-      role: Licensed Nutritionist & Fitness Trainer
+      role: Registered Dietician and Personal Trainer
       id: Andrew Senger
     - image: /img/torres-adams-headshot-5-19-21.jpeg
       name: Cassandra Torres-Adams
