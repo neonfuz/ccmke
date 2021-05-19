@@ -98,4 +98,34 @@ therapists:
     phone: (414) 520-xxxx
     email: rfriedman@ccmke.us
     body: Placeholder
+  - name: Shaquita Glenn
+    phone: xxx
+    email: xxx
+    specialties:
+      - aaa
+      - bbb
+      - ccc
+    body: |-
+      dfa;lda;dfa;dfa;dfaasldfjadf
+
+
+
+      a;sdfja;sldfka;sdflakdf;adjf
+    image: /img/services.png
+    id: Shaquita-Glenn
+  - name: Octavia Manuel-Wright
+    phone: "123"
+    email: xxx
+    specialties:
+      - aaa
+      - bbb
+      - ccc
+    body: |-
+      dl;akdf;aldfja;dfak;dklfja;dlfka;dflaj
+
+      asjldfa;sdlfaj;dlfaj;dfla
+
+      aldj;afsldfa;jsdlf
+    image: /img/background.png
+    id: Octavia-Manuel-Wright
 ---
