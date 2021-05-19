@@ -95,7 +95,7 @@ therapists:
   - id: rae-friedman
     image: /img/rae-bio-pic-.jpg
     name: Rae Friedman
-    phone: (414) 520-xxxx
+    phone: (414) 520-4839
     email: rfriedman@ccmke.us
     body: Placeholder
   - name: Shaquita Glenn
