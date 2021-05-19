@@ -4,8 +4,17 @@ title: About Us
 intro:
   image: /img/about us pic.png
   imageText: diversity
-  body: Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
+  body: >-
+    Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
     Competent
+
+
+    We can help with 
+
+
+    * Depression and Motivation
+
+    * Anxiety and Stress Management
 therapists:
   - id: sarah-la-follette
     image: /img/xd/mom cc.png
@@ -52,16 +61,13 @@ therapists:
       I’m nurturing, kind, creative and intuitive. My clients develop a sense of curiosity and humor—amidst good times and bad.
 
 
-      In addition to working with adults, I do theraplay, a modality that builds positive, warm, relationships between parent and child. It increases communication, and allows both parent and child to self regulate.
+      In addition to working with adults, I do Theraplay, a modality that builds positive, warm, relationships between parent and child. It increases communication, and allows both parent and child to self regulate.
 
 
-      I facilitate Jungian sand tray therapy with adults and children. It is a modality that creates a safe and sacred space that allows individuals to work through issues in a sensory, emotional, and non verbal way.
+      I facilitate Jungian Sand Tray Therapy with adults and children. It is a modality that creates a safe and sacred space that allows individuals to work through issues in a sensory, emotional, and non verbal way.
 
 
-      I facilitate child centered play therapy, which, like sand tray therapy, as the direction of the therapy is determined by the client. I also use bibliotherapy with some children to help them understand whatever they are working through by reading them books about others dealing with the similar problems.
-
-
-      <!--EndFragment-->
+      I facilitate child centered Play Therapy, which, like Sand Tray Therapy, the direction of the therapy is determined by the client. I also use Bibliotherapy with some children to help them understand whatever they are working through by reading them books about others dealing with the similar problems.
   - id: craig-stone
     image: /img/21199805_10213918055126382_2841736803325680717_o.jpg
     name: Craig Stone
