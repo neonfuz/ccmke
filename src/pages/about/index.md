@@ -4,7 +4,7 @@ title: About Us
 intro:
   image: /img/about us pic.png
   imageText: diversity
-  body: Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
+  body: Our care is Strengths-Based, Trauma-Informed, Evidenced-Based, Culturally
     Competent.
 therapists:
   - id: sarah-la-follette
