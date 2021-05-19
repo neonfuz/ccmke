@@ -89,7 +89,7 @@ therapists:
     body: Placeholder
   - name: Shaquita Glenn
     phone: xxx
-    email: xxx
+    email: sglenn@ccmke.us
     specialties:
       - aaa
       - bbb
@@ -103,8 +103,8 @@ therapists:
     image: /img/img-1119.jpg
     id: Shaquita-Glenn
   - name: Octavia Manuel-Wright
-    phone: "123"
-    email: xxx
+    phone: (414) 419-xxxx
+    email: omwright@ccmke.us
     specialties:
       - aaa
       - bbb
@@ -117,4 +117,13 @@ therapists:
       aldj;afsldfa;jsdlf
     image: /img/background.png
     id: Octavia-Manuel-Wright
+  - id: Octavia-MW
+    image: /img/background.png
+    name: Eriks Johnson
+    email: ejohnson@ccmke.us
+    phone: (414) 813-xxxx
+    body: |-
+      fasdkfa;dslfkajs;dflkaj;dfkja;df
+
+      asd;afkds;flasdf;a
 ---
