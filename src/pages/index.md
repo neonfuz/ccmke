@@ -77,7 +77,7 @@ intro:
       id: Andrew Senger
     - image: /img/torres-adams-headshot-5-19-21.jpeg
       name: Cassandra Torres-Adams
-      role: Staff
+      role: Rehabilitation Specialist
       id: Cassandra Torres-Adams
     - image: /img/background.png
       name: Beryl Mc Cuaig
