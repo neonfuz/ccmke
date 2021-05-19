@@ -95,13 +95,13 @@ therapists:
       - bbb
       - ccc
     body: |-
-      Philosophy
+      # Philosophy
 
 
 
 
 
-      Education
+      # Education
     image: /img/img-1119.jpg
     id: Shaquita-Glenn
   - name: Octavia Manuel-Wright
