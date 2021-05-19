@@ -6,10 +6,12 @@ intro:
   imageText: diversity
   body: >-
     Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
-    Competent
+    Competent.
 
 
-    We can help with 
+
+
+    We can help with:
 
 
     * Depression and Motivation
@@ -68,6 +70,10 @@ therapists:
 
 
       I facilitate child centered Play Therapy, which, like Sand Tray Therapy, the direction of the therapy is determined by the client. I also use Bibliotherapy with some children to help them understand whatever they are working through by reading them books about others dealing with the similar problems.
+    specialties:
+      - aaaa
+      - bbb
+      - ccc
   - id: craig-stone
     image: /img/21199805_10213918055126382_2841736803325680717_o.jpg
     name: Craig Stone
