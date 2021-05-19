@@ -4,19 +4,8 @@ title: About Us
 intro:
   image: /img/about us pic.png
   imageText: diversity
-  body: >-
-    Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
+  body: Our care is Strengths-Based, Trauma-informed, Evidenced-Based, Culturally
     Competent.
-
-
-
-
-    We can help with:
-
-
-    * Depression and Motivation
-
-    * Anxiety and Stress Management
 therapists:
   - id: sarah-la-follette
     image: /img/xd/mom cc.png
@@ -111,7 +100,7 @@ therapists:
 
 
       a;sdfja;sldfka;sdflakdf;adjf
-    image: /img/services.png
+    image: /img/img-1119.jpg
     id: Shaquita-Glenn
   - name: Octavia Manuel-Wright
     phone: "123"
