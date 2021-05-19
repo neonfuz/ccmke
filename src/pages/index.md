@@ -83,4 +83,8 @@ intro:
       name: Beryl Mc Cuaig
       role: Staff
       id: Beryl Mc Cuaig
+    - image: /img/background.png
+      name: Octavia Manuel-Wright
+      role: Yoga Instructor
+      id: Octavia-MW
 ---
