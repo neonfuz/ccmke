@@ -65,7 +65,7 @@ intro:
       image: /img/img-1119.jpg
     - image: /img/background.png
       name: Mike Gondek
-      role: Staff
+      role: Individual Skills Development
       id: Mike Gondek
     - image: /img/background.png
       name: Eriks Johnson
