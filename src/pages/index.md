@@ -46,7 +46,7 @@ intro:
     - image: /img/rae-bio-pic-.jpg
       id: rae-friedman
       name: Rae Friedman
-      role: Staff
+      role: Nutrition Specialist
     - image: /img/bethamie.jpg
       id: bethamie
       name: Bethamie
@@ -58,7 +58,7 @@ intro:
     - image: /img/23167926_1856735407673282_3820971896678131734_n.jpg
       id: bess
       name: Bess
-      role: Staff
+      role: Art Specialist
     - name: Shaquita Glenn
       role: Therapist
       id: Shaquita Glenn
@@ -69,11 +69,11 @@ intro:
       id: Mike Gondek
     - image: /img/background.png
       name: Eriks Johnson
-      role: Staff
+      role: Art Specialist
       id: Eriks Johnson
     - image: /img/background.png
       name: Andrew Senger
-      role: Staff
+      role: Licensed Nutritionist & Fitness Trainer
       id: Andrew Senger
     - image: /img/background.png
       name: Cassandra Torres-Adams
