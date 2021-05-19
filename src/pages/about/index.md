@@ -39,10 +39,8 @@ therapists:
     phone: (414) 405-8471
     email: srosenblatt@ccmke.us
     body: >-
-      <!--StartFragment-->
-
-
-      “ Hope” is the thing with feathers – That perches in the soul – And sings the tune without the words-and never stops at all.” Emily Dickinson
+      “ Hope” is the thing with feathers – That perches in the soul – And sings
+      the tune without the words-and never stops at all.” Emily Dickinson
 
 
       Hope begins the journey of becoming the person we are meant to be. With positive, unconditional regard, and someone who listens, we take comfort in being. We humans beautifully gravitate towards health and Improving our lives.
