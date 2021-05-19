@@ -126,4 +126,17 @@ therapists:
       fasdkfa;dslfkajs;dflkaj;dfkja;df
 
       asd;afkds;flasdf;a
+  - id: Mike-G
+    image: /img/background.png
+    name: Mike Gondek
+    phone: N/A
+    email: mgondek@ccmke.us
+    specialties:
+      - aaa
+      - bbb
+      - ccc
+    body: |-
+      ;ladkf;sdlkf;adlf;ajdlkfa;dfl
+
+      a;dfaks;dfakldsj;fadkflj
 ---
