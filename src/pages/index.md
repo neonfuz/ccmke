@@ -54,7 +54,7 @@ intro:
     - image: /img/paulag.jpg
       id: paula-g
       name: Paula
-      role: Staff
+      role: Rehabilitation/Wellness Specialist
     - image: /img/23167926_1856735407673282_3820971896678131734_n.jpg
       id: bess
       name: Bess
