@@ -38,8 +38,32 @@ therapists:
     name: Sarah Rosenblatt, LCSW
     phone: (414) 405-8471
     email: srosenblatt@ccmke.us
-    body: |
-      more text
+    body: >-
+      <!--StartFragment-->
+
+
+      “ Hope” is the thing with feathers – That perches in the soul – And sings the tune without the words-and never stops at all.” Emily Dickinson
+
+
+      Hope begins the journey of becoming the person we are meant to be. With positive, unconditional regard, and someone who listens, we take comfort in being. We humans beautifully gravitate towards health and Improving our lives.
+
+
+      I’m passionate about being part of each persons’ journey, focusing on each individual’s strengths and history. I look for the good in everyone. Every person is worthy of being heard and accepted for who he, she or they are.
+
+
+      I’m nurturing, kind, creative and intuitive. My clients develop a sense of curiosity and humor—amidst good times and bad.
+
+
+      In addition to working with adults, I do theraplay, a modality that builds positive, warm, relationships between parent and child. It increases communication, and allows both parent and child to self regulate.
+
+
+      I facilitate Jungian sand tray therapy with adults and children. It is a modality that creates a safe and sacred space that allows individuals to work through issues in a sensory, emotional, and non verbal way.
+
+
+      I facilitate child centered play therapy, which, like sand tray therapy, as the direction of the therapy is determined by the client. I also use bibliotherapy with some children to help them understand whatever they are working through by reading them books about others dealing with the similar problems.
+
+
+      <!--EndFragment-->
   - id: craig-stone
     image: /img/21199805_10213918055126382_2841736803325680717_o.jpg
     name: Craig Stone
