@@ -62,20 +62,20 @@ intro:
     - name: Shaquita Glenn
       role: Therapist
       id: Shaquita Glenn
-      image: /img/background.png
+      image: /img/img-1119.jpg
     - image: /img/background.png
       name: Mike Gondek
       role: Staff
       id: Mike Gondek
     - image: /img/background.png
       name: Eriks Johnson
-      role: Art Specialist
+      role: Art Facilitator Specializing in Painting
       id: Eriks Johnson
     - image: /img/background.png
       name: Andrew Senger
       role: Licensed Nutritionist & Fitness Trainer
       id: Andrew Senger
-    - image: /img/background.png
+    - image: /img/torres-adams-headshot-5-19-21.jpeg
       name: Cassandra Torres-Adams
       role: Staff
       id: Cassandra Torres-Adams
