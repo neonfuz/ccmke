@@ -47,7 +47,7 @@ services:
       est laborum.
   - name: Animal-Assisted Therapy
     id: Animal-Assisted Therapy
-    image: /img/services.png
+    image: /img/cutepuppy.jpg
     body: Animal-Centered Therapy Lorem ipsum dolor sit amet, consectetur adipiscing
       elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
