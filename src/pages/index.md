@@ -87,7 +87,7 @@ intro:
       name: Octavia Manuel-Wright
       role: Yoga Instructor
       id: Octavia-MW
-    - image: /img/background.png
+    - image: /img/sandee-boston-may-2018-2-.jpg
       name: Sandee Stadler
       role: Administrative Director
       id: Sandee-S
