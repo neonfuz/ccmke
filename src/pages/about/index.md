@@ -69,7 +69,7 @@ therapists:
     phone: (414) 405-0670
     email: cstone@ccmke.us
     body: Placeholder
-  - id: Sha' Juan-Kennedy
+  - id: Sha-Juan-Kennedy
     image: /img/ja-juan.jpg
     name: Sha'Juan Kennedy
     phone: (414) 399-xxxx
