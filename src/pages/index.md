@@ -20,7 +20,7 @@ mainpitch:
     - image: /img/xd/SarahR Office.png
       alt: Sarah R Room
 intro:
-  heading: Meet our Therapists and Community Support Staff
+  heading: Meet our Therapists and Community Support Workers
   subheading: click on a picture to learn more
   blurbs:
     - image: /img/xd/mom cc.png
