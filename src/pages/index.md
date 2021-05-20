@@ -50,7 +50,7 @@ intro:
     - image: /img/bethamie.jpg
       id: bethamie
       name: Bethamie
-      role: Dance
+      role: Nia Dance
     - image: /img/paulag.jpg
       id: paula-g
       name: Paula
