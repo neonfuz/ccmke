@@ -27,7 +27,7 @@ services:
       mollit anim id est laborum.
   - name: Art Wellness
     id: art-therapy
-    image: /img/services.png
+    image: /img/about us pic.png
     body: Art Therapy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
       do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
       minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
