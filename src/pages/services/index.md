@@ -25,7 +25,7 @@ services:
       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
       sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
       mollit anim id est laborum.
-  - name: Art Therapy
+  - name: Art Wellness
     id: art-therapy
     image: /img/services.png
     body: Art Therapy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
