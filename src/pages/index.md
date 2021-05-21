@@ -71,7 +71,7 @@ intro:
       name: Eriks Johnson
       role: Art Facilitator Specializing in Painting
       id: Eriks Johnson
-    - image: /img/background.png
+    - image: /img/andrew-senger.jpg
       name: Andrew Senger
       role: Registered Dietician and Personal Trainer
       id: Andrew Senger
