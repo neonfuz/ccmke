@@ -79,7 +79,7 @@ intro:
       name: Cassandra Torres-Adams
       role: Rehabilitation Specialist
       id: Cassandra Torres-Adams
-    - image: /img/background.png
+    - image: /img/beryl-mccuaig.jpg
       name: Beryl Mc Cuaig
       role: Staff
       id: Beryl Mc Cuaig
