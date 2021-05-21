@@ -46,7 +46,7 @@ intro:
     - image: /img/rae-bio-pic-.jpg
       id: rae-friedman
       name: Rae Friedman
-      role: Nutrition Specialist
+      role: Nutrition Support Provider
     - image: /img/bethamie.jpg
       id: bethamie
       name: Bethamie
