@@ -67,7 +67,7 @@ intro:
       name: Mike Gondek
       role: Individual Skills Development
       id: Mike Gondek
-    - image: /img/background.png
+    - image: /img/eriks-johnson-3.jpg
       name: Eriks Johnson
       role: Art Facilitator Specializing in Painting
       id: Eriks Johnson
