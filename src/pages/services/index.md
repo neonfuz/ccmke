@@ -3,11 +3,11 @@ templateKey: services-page
 path: /services
 title: "Services - We tailor our care to each individual and family using the
   following:"
-image: /img/services.png
+image: /img/office-pic-action-figures2.jpg
 services:
   - name: Child-Centered Play Therapy
     id: play-therapy
-    image: /img/services.png
+    image: /img/office-pic-dress-up.jpg
     body: Child-Centered Play Therapy Lorem ipsum dolor sit amet, consectetur
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
       magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
