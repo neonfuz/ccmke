@@ -17,7 +17,7 @@ services:
       qui officia deserunt mollit anim id est laborum.
   - name: Sand Tray Therapy
     id: sand-tray-therapy
-    image: /img/services.png
+    image: /img/office-pic-sand-tray.jpg
     body: Sand Tray Therapy Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
       ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
