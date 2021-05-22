@@ -83,4 +83,9 @@ services:
     id: Bibliotherapy
   - name: Diet and Nutrition
     id: Diet and Nutrition
+    body: >-
+      Nia Healing Dance
+
+
+      * Nia Healing Dance addresses depression, anxiety, trauma, and schizophrenia and incorporates martial arts, yoga, and modern dance;
 ---
