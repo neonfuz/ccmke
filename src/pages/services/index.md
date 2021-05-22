@@ -18,13 +18,13 @@ services:
   - name: Jungian Sand Tray Therapy
     id: Jungian Sand-tray-therapy
     image: /img/office-pic-sand-tray.jpg
-    body: Sand Tray Therapy Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-      sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-      ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-      ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-      sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-      mollit anim id est laborum.
+    body: >-
+      Jungian Sand Tray Therapy 
+
+
+      * Based on Eastern philosophical beliefs and Jungian training;
+
+        Means of non-verbal communication.  Sand box figures used as communication tools
   - name: Art Wellness
     id: art-therapy
     image: /img/about us pic.png
