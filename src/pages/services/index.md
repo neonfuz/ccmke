@@ -12,6 +12,7 @@ services:
       Child-Centered Play Therapy 
 
       * Child leads in play with a caring adult
+      * Adult reflects on emotions, themes, and on what the child is doing
   - name: Jungian Sand Tray Therapy
     id: Jungian Sand-tray-therapy
     image: /img/office-pic-sand-tray.jpg
@@ -72,20 +73,10 @@ services:
   - name: NIA Healing Dance
     id: nia-dance
     image: /img/services.png
-    body: NIA Dance Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    body: NIA Healing Dance
   - name: Bibliotherapy
     id: Bibliotherapy
   - name: Diet and Nutrition
     id: Diet and Nutrition
-    body: >-
-      Nia Healing Dance
-
-
-      * Nia Healing Dance addresses depression, anxiety, trauma, and schizophrenia and incorporates martial arts, yoga, and modern dance;
+    body: ""
 ---
