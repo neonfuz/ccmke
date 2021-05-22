@@ -15,8 +15,8 @@ services:
       reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
       pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
       qui officia deserunt mollit anim id est laborum.
-  - name: Sand Tray Therapy
-    id: sand-tray-therapy
+  - name: Jungian Sand Tray Therapy
+    id: Jungian Sand-tray-therapy
     image: /img/office-pic-sand-tray.jpg
     body: Sand Tray Therapy Lorem ipsum dolor sit amet, consectetur adipiscing elit,
       sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
