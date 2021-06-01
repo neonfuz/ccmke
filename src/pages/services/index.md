@@ -13,6 +13,10 @@ services:
 
       * Child leads in play with a caring adult
       * Adult reflects on emotions, themes, and on what the child is doing
+
+        Adult affirms world child creates in play
+
+        Child plays out underlying issues he or she is working through
   - name: Jungian Sand Tray Therapy
     id: Jungian Sand-tray-therapy
     image: /img/office-pic-sand-tray.jpg
