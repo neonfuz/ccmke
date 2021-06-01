@@ -80,6 +80,7 @@ services:
     body: NIA Healing Dance
   - name: Bibliotherapy
     id: Bibliotherapy
+    image: /img/bibliotherapy2.jpg
   - name: Diet and Nutrition
     id: Diet and Nutrition
     body: ""
