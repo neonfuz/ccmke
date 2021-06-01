@@ -37,13 +37,13 @@ services:
   - name: Theraplay
     id: theraplay
     image: /img/office-pic-doll-house.jpg
-    body: Theraplay Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-      ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-      est laborum.
+    body: >-
+      Theraplay 
+
+
+      * Core components results in changed view of self as worthy and loveable and of relationships as positive and rewarding
+
+      * Sensory-Emotional level rather than intellectual touch, taste, feel, personal, physical fun
   - name: Animal-Assisted Therapy
     id: Animal-Assisted Therapy
     image: /img/cutepuppy.jpg
